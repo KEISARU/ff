@@ -1,0 +1,5 @@
+repositories:
+  jetson_gpio:
+    type: git
+    url: https://github.com/pjueon/JetsonGPIO.git
+    version: master
