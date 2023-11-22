@@ -36,9 +36,10 @@ int speedStop =     45; //stop
 DigiPot pot(33, 31, 37);
 
 /**
- * @brief This class can be used to map a float
- * value between -1 and 1 to int value for the
- * servos based on the PWM frequency.
+ * @brief This class is used to map the angles of the
+ * servo to int value for the servo based on
+ * PWM frequency.
+ *
  */
 class Angle2ServoMap {
 public:
