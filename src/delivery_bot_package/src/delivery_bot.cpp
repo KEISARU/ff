@@ -28,9 +28,9 @@ int servoMax = 70;
 int servoMin = 32;
 int servoMid = 50;
 
-int speedForward =  20; //0 max speed forwards
+int speedForward = 20; //0 max speed forwards
 int speedBackward = 70; //99 max speed backwards
-int speedStop =     45; //stop
+int speedStop = 45; //stop
 
 // Create DigiPot object
 DigiPot pot(21, 19, 23);
@@ -110,6 +110,7 @@ private:
             usleep(1000000);
             i2c_fd_ = open("/dev/i2c-1", O_RDWR);
         }
+        RCUTILS_LOG_DEBUG_NAMED(get_name(), "I2C device opened successfully");
 
         // Set the I2C slave address
         dev_address_ = I2C_ADDRESS;
@@ -117,12 +118,13 @@ private:
             RCUTILS_LOG_ERROR_NAMED(get_name(), "Failed to set I2C slave address");
             return;
         }
+        RCUTILS_LOG_DEBUG_NAMED(get_name(), "I2C slave address set successfully");
 
         set_frequency(pwm_freq_);
 
         // Set the default PWM values
         set_pwm(0, 0, 314); // 314 count == 50 degrees servo
-
+        RCUTILS_LOG_DEBUG_NAMED(get_name(), "Init is successful");
     }
 
     void set_frequency(uint16_t frequency) {
@@ -205,6 +207,9 @@ private:
          * msg->linear.x            Throttle
          * msg->angular.z           Servo
          */
+        RCLCPP_DEBUG(get_logger(), "Linear: x:%lf, y:%lf, z:%lf", msg->linear.x, msg->linear.y, msg->linear.z);
+        RCLCPP_DEBUG(get_logger(), "Angular: x:%lf, y:%lf, z:%lf", msg->angular.x, msg->angular.y, msg->angular.z);
+        RCLCPP_DEBUG(get_logger(), "Current Angle: %d", angle);
 
         if (msg->linear.x > 0) {
             throttle(speedForward);
@@ -245,7 +250,7 @@ private:
          *
          * @param velocity          Velocity to move the robot with
          */
-
+        RCLCPP_DEBUG(this->get_logger(), "THROTTLE %d", velocity);
         pot.set(velocity);
     }
 
