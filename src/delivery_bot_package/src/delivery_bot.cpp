@@ -33,7 +33,7 @@ int speedBackward = 70; //99 max speed backwards
 int speedStop =     45; //stop
 
 // Create DigiPot object
-DigiPot pot(33, 31, 37);
+DigiPot pot(21, 19, 23);
 
 /**
  * @brief This class is used to map the angles of the
