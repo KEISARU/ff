@@ -1,0 +1,199 @@
+[0.204s] Invoking command in '/ros2_ws/build/digipot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/digipot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot_interfaces
+[0.420s] -- The C compiler identification is GNU 11.4.0
+[0.619s] -- The CXX compiler identification is GNU 11.4.0
+[0.650s] -- Detecting C compiler ABI info
+[0.902s] -- Detecting C compiler ABI info - done
+[0.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.938s] -- Detecting C compile features
+[0.940s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.243s] -- Detecting CXX compiler ABI info - done
+[1.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.278s] -- Detecting CXX compile features
+[1.279s] -- Detecting CXX compile features - done
+[1.301s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.004s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.314s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.490s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.560s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.962s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.665s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.676s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.763s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.764s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.765s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.839s] -- Found PythonExtra: .so  
+[5.983s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.102s] -- Added test 'lint_cmake' to check CMake code style
+[6.109s] -- Added test 'xmllint' to check XML markup files
+[6.132s] -- Configuring done
+[6.262s] -- Generating done
+[6.271s] -- Build files have been written to: /ros2_ws/build/digipot_interfaces
+[6.304s] Invoked command in '/ros2_ws/build/digipot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/digipot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot_interfaces
+[6.306s] Invoking command in '/ros2_ws/build/digipot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot_interfaces -- -j4 -l4
+[6.437s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.487s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.509s] [  6%] Built target ament_cmake_python_symlink_digipot_interfaces
+[7.608s] running egg_info
+[7.612s] creating digipot_interfaces.egg-info
+[7.612s] writing digipot_interfaces.egg-info/PKG-INFO
+[7.613s] writing dependency_links to digipot_interfaces.egg-info/dependency_links.txt
+[7.614s] writing top-level names to digipot_interfaces.egg-info/top_level.txt
+[7.614s] writing manifest file 'digipot_interfaces.egg-info/SOURCES.txt'
+[7.627s] reading manifest file 'digipot_interfaces.egg-info/SOURCES.txt'
+[7.628s] writing manifest file 'digipot_interfaces.egg-info/SOURCES.txt'
+[7.743s] [  6%] Built target ament_cmake_python_build_digipot_interfaces_egg
+[7.991s] [  6%] Built target digipot_interfaces__cpp
+[7.998s] [  9%] [32mBuilding C object CMakeFiles/digipot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/digipot_interfaces/msg/detail/digipot__functions.c.o[0m
+[8.022s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.025s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.034s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.231s] [ 22%] [32m[1mLinking C shared library libdigipot_interfaces__rosidl_generator_c.so[0m
+[8.385s] [ 22%] Built target digipot_interfaces__rosidl_generator_c
+[8.506s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.456s] [ 29%] [32mBuilding CXX object CMakeFiles/digipot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/digipot_interfaces/msg/digipot__type_support.cpp.o[0m
+[9.616s] [ 32%] [32mBuilding CXX object CMakeFiles/digipot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/digipot_interfaces/msg/detail/dds_fastrtps/digipot__type_support.cpp.o[0m
+[9.760s] [ 35%] [32mBuilding CXX object CMakeFiles/digipot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/digipot_interfaces/msg/detail/digipot__type_support.cpp.o[0m
+[10.488s] [ 38%] [32mBuilding CXX object CMakeFiles/digipot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/digipot_interfaces/msg/detail/digipot__type_support_c.cpp.o[0m
+[10.970s] [ 41%] [32m[1mLinking CXX shared library libdigipot_interfaces__rosidl_typesupport_cpp.so[0m
+[11.181s] [ 41%] Built target digipot_interfaces__rosidl_typesupport_cpp
+[11.285s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.797s] [ 48%] [32m[1mLinking CXX shared library libdigipot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.118s] [ 51%] [32m[1mLinking CXX shared library libdigipot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.222s] [ 51%] Built target digipot_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.289s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.403s] [ 54%] Built target digipot_interfaces__rosidl_typesupport_introspection_cpp
+[12.456s] [ 58%] [32m[1mLinking CXX shared library libdigipot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.783s] [ 58%] Built target digipot_interfaces__rosidl_typesupport_fastrtps_c
+[12.952s] [ 61%] [32mBuilding C object CMakeFiles/digipot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/digipot_interfaces/msg/detail/digipot__type_support.c.o[0m
+[13.085s] [ 64%] [32m[1mLinking C shared library libdigipot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.189s] [ 64%] Built target digipot_interfaces__rosidl_typesupport_introspection_c
+[13.547s] [ 67%] [32mBuilding CXX object CMakeFiles/digipot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/digipot_interfaces/msg/digipot__type_support.cpp.o[0m
+[13.664s] [ 70%] [32m[1mLinking CXX shared library libdigipot_interfaces__rosidl_typesupport_c.so[0m
+[13.784s] [ 70%] Built target digipot_interfaces__rosidl_typesupport_c
+[13.838s] [ 70%] Built target digipot_interfaces
+[13.894s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.325s] [ 74%] Built target digipot_interfaces__py
+[15.380s] [ 77%] [32mBuilding C object CMakeFiles/digipot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/digipot_interfaces/msg/_digipot_s.c.o[0m
+[15.809s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/digipot_interfaces/libdigipot_interfaces__rosidl_generator_py.so[0m
+[15.940s] [ 80%] Built target digipot_interfaces__rosidl_generator_py
+[16.013s] [ 83%] [32mBuilding C object CMakeFiles/digipot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/digipot_interfaces/_digipot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.015s] [ 87%] [32mBuilding C object CMakeFiles/digipot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/digipot_interfaces/_digipot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.020s] [ 90%] [32mBuilding C object CMakeFiles/digipot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/digipot_interfaces/_digipot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.457s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.484s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.492s] [100%] [32m[1mLinking C shared library rosidl_generator_py/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.609s] [100%] Built target digipot_interfaces__rosidl_typesupport_c__pyext
+[16.613s] [100%] Built target digipot_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.628s] [100%] Built target digipot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.672s] Invoked command in '/ros2_ws/build/digipot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot_interfaces -- -j4 -l4
+[16.859s] Invoking command in '/ros2_ws/build/digipot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot_interfaces
+[16.882s] -- Install configuration: ""
+[16.884s] -- Execute custom install script
+[16.885s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/ament_index/resource_index/rosidl_interfaces/digipot_interfaces
+[16.913s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__functions.h
+[16.944s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__struct.h
+[16.965s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__type_support.h
+[16.991s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/digipot.h
+[17.018s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[17.045s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/library_path.sh
+[17.071s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/library_path.dsv
+[17.098s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__rosidl_typesupport_fastrtps_c.h
+[17.126s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.151s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__rosidl_typesupport_introspection_c.h
+[17.175s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.202s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__builder.hpp
+[17.227s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__struct.hpp
+[17.251s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__traits.hpp
+[17.276s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/digipot.hpp
+[17.302s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__rosidl_typesupport_fastrtps_cpp.hpp
+[17.325s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.350s] -- Symlinking: /ros2_ws/install/digipot_interfaces/include/digipot_interfaces/digipot_interfaces/msg/detail/digipot__rosidl_typesupport_introspection_cpp.hpp
+[17.373s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/pythonpath.sh
+[17.397s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/pythonpath.dsv
+[17.421s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[17.445s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.468s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.492s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[17.517s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/__init__.py
+[17.542s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/_digipot_interfaces_s.ep.rosidl_typesupport_c.c
+[17.567s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/_digipot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.591s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/_digipot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[17.615s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.638s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.661s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.685s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/libdigipot_interfaces__rosidl_generator_py.so
+[17.709s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/msg/__init__.py
+[17.732s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/msg/_digipot.py
+[17.755s] -- Symlinking: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/msg/_digipot_s.c
+[17.781s] -- Up-to-date symlink: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.782s] -- Up-to-date symlink: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.782s] -- Up-to-date symlink: /ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/digipot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.783s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/msg/Digipot.idl
+[17.808s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/msg/Digipot.msg
+[17.831s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/ament_index/resource_index/package_run_dependencies/digipot_interfaces
+[17.855s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/ament_index/resource_index/parent_prefix_path/digipot_interfaces
+[17.878s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/ament_prefix_path.sh
+[17.902s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/ament_prefix_path.dsv
+[17.925s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/path.sh
+[17.950s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/environment/path.dsv
+[17.974s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/local_setup.bash
+[17.998s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/local_setup.sh
+[18.022s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/local_setup.zsh
+[18.046s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/local_setup.dsv
+[18.070s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/package.dsv
+[18.094s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/ament_index/resource_index/packages/digipot_interfaces
+[18.118s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.142s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.165s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.190s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.212s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.236s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.260s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.283s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfacesConfig.cmake
+[18.307s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfacesConfig-version.cmake
+[18.331s] -- Symlinking: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/package.xml
+[18.354s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_generator_c.so
+[18.355s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_generator_c.so" to ""
+[18.356s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.357s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.358s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_introspection_c.so
+[18.358s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.359s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_c.so
+[18.360s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_c.so" to ""
+[18.360s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.361s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.361s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.362s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.363s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_cpp.so
+[18.365s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_typesupport_cpp.so" to ""
+[18.514s] Listing '/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces'...
+[18.515s] Compiling '/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/__init__.py'...
+[18.516s] Listing '/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/msg'...
+[18.517s] Compiling '/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/msg/__init__.py'...
+[18.517s] Compiling '/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages/digipot_interfaces/msg/_digipot.py'...
+[18.539s] -- Installing: /ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_generator_py.so
+[18.540s] -- Set runtime path of "/ros2_ws/install/digipot_interfaces/lib/libdigipot_interfaces__rosidl_generator_py.so" to ""
+[18.542s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_generator_cExport.cmake
+[18.542s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.543s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[18.544s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.544s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.545s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.545s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_cExport.cmake
+[18.546s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.547s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_generator_cppExport.cmake
+[18.547s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.548s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.551s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.552s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.553s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_cppExport.cmake
+[18.553s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/digipot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.553s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_generator_pyExport.cmake
+[18.554s] -- Installing: /ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake/export_digipot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[18.560s] Invoked command in '/ros2_ws/build/digipot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot_interfaces

@@ -1,0 +1,26 @@
+[0.221s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.353s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[0.419s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[36.806s] [ 66%] [32m[1mLinking CXX executable digipot[0m
+[38.759s] [100%] Built target digipot
+[38.791s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[38.888s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot
+[38.909s] -- Install configuration: ""
+[38.911s] -- Execute custom install script
+[38.912s] -- Up-to-date symlink: /ros2_ws/install/digipot/lib/digipot/digipot
+[38.912s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+[38.913s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+[38.913s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+[38.914s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+[38.914s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+[38.915s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+[38.915s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+[38.916s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+[38.916s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+[38.918s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+[38.918s] -- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+[38.942s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+[38.943s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+[38.943s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+[38.944s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/package.xml
+[38.949s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot

@@ -1,0 +1,44 @@
+[3.775s] Invoking command in '/ros2_ws/build/ws_server': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/ws_server/build
+[4.658s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.659s]   warnings.warn(
+[4.779s] running develop
+[4.781s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.781s]   warnings.warn(
+[4.786s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.787s]   warnings.warn(
+[5.227s] Removing /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws-server.egg-link (link to .)
+[5.372s] Invoked command in '/ros2_ws/build/ws_server' returned '0': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/ws_server/build
+[5.374s] Invoking command in '/ros2_ws/src/ws_server': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ws_server build --build-base /ros2_ws/build/ws_server/build install --record /ros2_ws/build/ws_server/install.log --install-scripts $base/lib/ws_server --single-version-externally-managed
+[6.181s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.182s]   warnings.warn(
+[6.215s] running egg_info
+[6.218s] writing ../../build/ws_server/ws_server.egg-info/PKG-INFO
+[6.219s] writing dependency_links to ../../build/ws_server/ws_server.egg-info/dependency_links.txt
+[6.220s] writing entry points to ../../build/ws_server/ws_server.egg-info/entry_points.txt
+[6.220s] writing requirements to ../../build/ws_server/ws_server.egg-info/requires.txt
+[6.221s] writing top-level names to ../../build/ws_server/ws_server.egg-info/top_level.txt
+[6.228s] reading manifest file '../../build/ws_server/ws_server.egg-info/SOURCES.txt'
+[6.233s] writing manifest file '../../build/ws_server/ws_server.egg-info/SOURCES.txt'
+[6.234s] running build
+[6.234s] running build_py
+[6.235s] creating /ros2_ws/build/ws_server/build
+[6.235s] creating /ros2_ws/build/ws_server/build/lib
+[6.237s] creating /ros2_ws/build/ws_server/build/lib/ws_server
+[6.237s] copying ws_server/__init__.py -> /ros2_ws/build/ws_server/build/lib/ws_server
+[6.238s] copying ws_server/ws_server_node.py -> /ros2_ws/build/ws_server/build/lib/ws_server
+[6.238s] running install
+[6.239s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.239s]   warnings.warn(
+[6.241s] running install_lib
+[6.241s] creating /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server
+[6.242s] copying /ros2_ws/build/ws_server/build/lib/ws_server/__init__.py -> /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server
+[6.242s] copying /ros2_ws/build/ws_server/build/lib/ws_server/ws_server_node.py -> /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server
+[6.244s] byte-compiling /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server/__init__.py to __init__.cpython-310.pyc
+[6.245s] byte-compiling /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server/ws_server_node.py to ws_server_node.cpython-310.pyc
+[6.247s] running install_data
+[6.252s] running install_egg_info
+[6.259s] Copying ../../build/ws_server/ws_server.egg-info to /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server-0.0.0-py3.10.egg-info
+[6.265s] running install_scripts
+[6.357s] Installing ws_server_node script to /ros2_ws/install/ws_server/lib/ws_server
+[6.357s] writing list of installed files to '/ros2_ws/build/ws_server/install.log'
+[6.487s] Invoked command in '/ros2_ws/src/ws_server' returned '0': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ws_server build --build-base /ros2_ws/build/ws_server/build install --record /ros2_ws/build/ws_server/install.log --install-scripts $base/lib/ws_server --single-version-externally-managed

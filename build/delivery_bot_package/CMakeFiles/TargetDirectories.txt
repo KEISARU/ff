@@ -1,0 +1,10 @@
+/ros2_ws/build/delivery_bot_package/CMakeFiles/uninstall.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/delivery_bot_package_uninstall.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/delivery_bot.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/test.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/edit_cache.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/rebuild_cache.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/list_install_components.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/install.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/install/local.dir
+/ros2_ws/build/delivery_bot_package/CMakeFiles/install/strip.dir

@@ -1,0 +1,28 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  153 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KInt16[m[K>::SharedPtr publisher_;
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |   rclcpp::Publisher<std_msgs::msg::Int16[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                         [01;31m[K^[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  153 |   rclcpp::Publisher<std_msgs::msg::Int16>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  153 |   rclcpp::Publisher<std_msgs::msg::Int16>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+      |                                                      [32m[Krmw_publisher_t[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   51 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float32>("digipot_ctrl", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   79 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

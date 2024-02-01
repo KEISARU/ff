@@ -1,0 +1,23 @@
+[3.283s] Invoking command in '/ros2_ws/build/ws_server': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/ws_server/build --no-deps install_data
+[4.090s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.091s]   warnings.warn(
+[4.205s] running develop
+[4.207s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.209s]   warnings.warn(
+[4.212s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.213s]   warnings.warn(
+[4.660s] running egg_info
+[4.661s] writing ws_server.egg-info/PKG-INFO
+[4.663s] writing dependency_links to ws_server.egg-info/dependency_links.txt
+[4.663s] writing entry points to ws_server.egg-info/entry_points.txt
+[4.664s] writing requirements to ws_server.egg-info/requires.txt
+[4.664s] writing top-level names to ws_server.egg-info/top_level.txt
+[4.669s] reading manifest file 'ws_server.egg-info/SOURCES.txt'
+[4.674s] writing manifest file 'ws_server.egg-info/SOURCES.txt'
+[4.679s] running build_ext
+[4.680s] Creating /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws-server.egg-link (link to .)
+[4.684s] Installing ws_server_node script to /ros2_ws/install/ws_server/lib/ws_server
+[4.685s] 
+[4.685s] Installed /ros2_ws/build/ws_server
+[4.685s] running install_data
+[4.806s] Invoked command in '/ros2_ws/build/ws_server' returned '0': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/ws_server/build --no-deps install_data

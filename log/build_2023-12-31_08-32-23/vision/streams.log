@@ -1,0 +1,47 @@
+[4.175s] Invoking command in '/ros2_ws/build/vision': PYTHONPATH=/ros2_ws/build/vision/prefix_override:/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/vision/build
+[5.124s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.124s]   warnings.warn(
+[5.248s] running develop
+[5.249s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.249s]   warnings.warn(
+[5.254s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.254s]   warnings.warn(
+[5.702s] Removing /ros2_ws/install/vision/lib/python3.10/site-packages/vision.egg-link (link to .)
+[5.838s] Invoked command in '/ros2_ws/build/vision' returned '0': PYTHONPATH=/ros2_ws/build/vision/prefix_override:/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/vision/build
+[5.844s] Invoking command in '/ros2_ws/src/vision': PYTHONPATH=/ros2_ws/build/vision/prefix_override:/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /ros2_ws/build/vision/build install --record /ros2_ws/build/vision/install.log --install-scripts $base/lib/vision --single-version-externally-managed
+[6.650s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.650s]   warnings.warn(
+[6.683s] running egg_info
+[6.687s] writing ../../build/vision/vision.egg-info/PKG-INFO
+[6.687s] writing dependency_links to ../../build/vision/vision.egg-info/dependency_links.txt
+[6.688s] writing entry points to ../../build/vision/vision.egg-info/entry_points.txt
+[6.689s] writing requirements to ../../build/vision/vision.egg-info/requires.txt
+[6.690s] writing top-level names to ../../build/vision/vision.egg-info/top_level.txt
+[6.697s] reading manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[6.702s] writing manifest file '../../build/vision/vision.egg-info/SOURCES.txt'
+[6.703s] running build
+[6.704s] running build_py
+[6.704s] creating /ros2_ws/build/vision/build
+[6.705s] creating /ros2_ws/build/vision/build/lib
+[6.705s] creating /ros2_ws/build/vision/build/lib/vision
+[6.706s] copying vision/__init__.py -> /ros2_ws/build/vision/build/lib/vision
+[6.706s] copying vision/test_vision.py -> /ros2_ws/build/vision/build/lib/vision
+[6.707s] copying vision/vision_node.py -> /ros2_ws/build/vision/build/lib/vision
+[6.708s] running install
+[6.708s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.709s]   warnings.warn(
+[6.709s] running install_lib
+[6.712s] creating /ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[6.715s] copying /ros2_ws/build/vision/build/lib/vision/__init__.py -> /ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[6.716s] copying /ros2_ws/build/vision/build/lib/vision/test_vision.py -> /ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[6.716s] copying /ros2_ws/build/vision/build/lib/vision/vision_node.py -> /ros2_ws/install/vision/lib/python3.10/site-packages/vision
+[6.717s] byte-compiling /ros2_ws/install/vision/lib/python3.10/site-packages/vision/__init__.py to __init__.cpython-310.pyc
+[6.717s] byte-compiling /ros2_ws/install/vision/lib/python3.10/site-packages/vision/test_vision.py to test_vision.cpython-310.pyc
+[6.718s] byte-compiling /ros2_ws/install/vision/lib/python3.10/site-packages/vision/vision_node.py to vision_node.cpython-310.pyc
+[6.719s] running install_data
+[6.725s] running install_egg_info
+[6.732s] Copying ../../build/vision/vision.egg-info to /ros2_ws/install/vision/lib/python3.10/site-packages/vision-0.0.0-py3.10.egg-info
+[6.739s] running install_scripts
+[6.834s] Installing vision_node script to /ros2_ws/install/vision/lib/vision
+[6.835s] writing list of installed files to '/ros2_ws/build/vision/install.log'
+[7.072s] Invoked command in '/ros2_ws/src/vision' returned '0': PYTHONPATH=/ros2_ws/build/vision/prefix_override:/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vision build --build-base /ros2_ws/build/vision/build install --record /ros2_ws/build/vision/install.log --install-scripts $base/lib/vision --single-version-externally-managed

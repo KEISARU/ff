@@ -1,0 +1,153 @@
+[35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:9:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigiPot::DigiPot()[m[K’
+    9 |   DigipotNode(): Node("digipot"[01;31m[K)[m[K
+      |                                [01;31m[K^[m[K
+In file included from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:4[m[K:
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDigiPot::DigiPot(int, int, int)[m[K’
+   12 |     [01;36m[KDigiPot[m[K(int udPin, int incPin, int csPin);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr DigiPot::DigiPot(const DigiPot&)[m[K’
+   10 | class [01;36m[KDigiPot[m[K {
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr DigiPot::DigiPot(DigiPot&&)[m[K’
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:11:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigipotNode::declare_parameter(const char [6], unsigned int, const char [20])[m[K’
+   11 |     [01;31m[Kdeclare_parameter("udPin", 0u, "U/D GPIO pin number")[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+  421 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:11:36:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"U/D GPIO pin number"[m[K’ (type ‘[01m[Kconst char [20][m[K’) to type ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+   11 |     declare_parameter("udPin", 0u, [01;36m[K"U/D GPIO pin number"[m[K);
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+  434 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:11:22:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+   11 |     [01;36m[Kdeclare_parameter("udPin", 0u, "U/D GPIO pin number")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+  366 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:368:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kunsigned int[m[K’ to ‘[01m[Kconst rclcpp::ParameterValue&[m[K’
+  368 |     [01;36m[Kconst rclcpp::ParameterValue & default_value[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+  391 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:394:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [20][m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  394 |     [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =[m[K
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+  395 | [01;36m[K    rcl_interfaces::msg::ParameterDescriptor{}[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:12:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigipotNode::declare_parameter(const char [7], unsigned int, const char [20])[m[K’
+   12 |     [01;31m[Kdeclare_parameter("incPin", 0u, "INC GPIO pin number")[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+  421 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:12:37:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"INC GPIO pin number"[m[K’ (type ‘[01m[Kconst char [20][m[K’) to type ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+   12 |     declare_parameter("incPin", 0u, [01;36m[K"INC GPIO pin number"[m[K);
+      |                                     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+  434 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:12:22:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+   12 |     [01;36m[Kdeclare_parameter("incPin", 0u, "INC GPIO pin number")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+  366 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:368:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kunsigned int[m[K’ to ‘[01m[Kconst rclcpp::ParameterValue&[m[K’
+  368 |     [01;36m[Kconst rclcpp::ParameterValue & default_value[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+  391 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:394:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [20][m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  394 |     [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =[m[K
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+  395 | [01;36m[K    rcl_interfaces::msg::ParameterDescriptor{}[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:13:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigipotNode::declare_parameter(const char [6], unsigned int, const char [19])[m[K’
+   13 |     [01;31m[Kdeclare_parameter("csPin", 0u, "CS GPIO pin number")[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+  421 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:13:36:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"CS GPIO pin number"[m[K’ (type ‘[01m[Kconst char [19][m[K’) to type ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+   13 |     declare_parameter("csPin", 0u, [01;36m[K"CS GPIO pin number"[m[K);
+      |                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+  434 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:13:22:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+   13 |     [01;36m[Kdeclare_parameter("csPin", 0u, "CS GPIO pin number")[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+  366 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:368:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kunsigned int[m[K’ to ‘[01m[Kconst rclcpp::ParameterValue&[m[K’
+  368 |     [01;36m[Kconst rclcpp::ParameterValue & default_value[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+  391 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:394:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst char [19][m[K’ to ‘[01m[Kconst ParameterDescriptor&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&[m[K’}
+  394 |     [01;36m[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =[m[K
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+  395 | [01;36m[K    rcl_interfaces::msg::ParameterDescriptor{}[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[KudPin_[m[K’ was not declared in this scope; did you mean ‘[01m[KunPin_[m[K’?
+   16 |     [01;31m[KudPin_[m[K = get_parameter("udPin").as_int();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KunPin_[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

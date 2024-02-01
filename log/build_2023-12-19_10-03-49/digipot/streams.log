@@ -1,0 +1,19 @@
+[0.404s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[0.726s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[15.614s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[15.616s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:84:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[15.618s]    84 |     last_control_ = rclcpp::Time[01;31m[K.[m[Know();
+[15.620s]       |                                 [01;31m[K^[m[K
+[15.625s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[15.625s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:91:17:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[15.626s]    91 |       if((rclcpp[01;31m[K:[m[KTime.now() - last_control_).nanoseconds() > 200000000.0)
+[15.626s]       |                 [01;31m[K^[m[K
+[15.627s]       |                 [32m[K::[m[K
+[15.630s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:91:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[15.630s]    91 |       if((rclcpp:Time[01;31m[K.[m[Know() - last_control_).nanoseconds() > 200000000.0)
+[15.631s]       |                      [01;31m[K^[m[K
+[35.856s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+[35.860s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[35.862s] gmake: *** [Makefile:146: all] Error 2
+[35.875s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

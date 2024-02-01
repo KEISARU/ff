@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000984] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.002281] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.002936] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.003225] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003391] (-) JobUnselected: {'identifier': 'vision'}
+[0.003717] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.004032] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict()}
+[0.004155] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.099232] (-) TimerEvent: {}
+[0.150174] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.152518] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[0.156102] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199414] (-) TimerEvent: {}
+[0.284682] (digipot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target digipot\x1b[0m\n'}
+[0.299511] (-) TimerEvent: {}
+[0.346739] (digipot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o\x1b[0m\n'}
+[0.399689] (-) TimerEvent: {}
+[0.500379] (-) TimerEvent: {}
+[0.601322] (-) TimerEvent: {}
+[0.701958] (-) TimerEvent: {}
+[0.802642] (-) TimerEvent: {}
+[0.903277] (-) TimerEvent: {}
+[1.003911] (-) TimerEvent: {}
+[1.104542] (-) TimerEvent: {}
+[1.205189] (-) TimerEvent: {}
+[1.305829] (-) TimerEvent: {}
+[1.406480] (-) TimerEvent: {}
+[1.507133] (-) TimerEvent: {}
+[1.607780] (-) TimerEvent: {}
+[1.708460] (-) TimerEvent: {}
+[1.809134] (-) TimerEvent: {}
+[1.909822] (-) TimerEvent: {}
+[2.010481] (-) TimerEvent: {}
+[2.111144] (-) TimerEvent: {}
+[2.211807] (-) TimerEvent: {}
+[2.312474] (-) TimerEvent: {}
+[2.413153] (-) TimerEvent: {}
+[2.513874] (-) TimerEvent: {}
+[2.614597] (-) TimerEvent: {}
+[2.715270] (-) TimerEvent: {}
+[2.815926] (-) TimerEvent: {}
+[2.916590] (-) TimerEvent: {}
+[3.017257] (-) TimerEvent: {}
+[3.117980] (-) TimerEvent: {}
+[3.218752] (-) TimerEvent: {}
+[3.319415] (-) TimerEvent: {}
+[3.420081] (-) TimerEvent: {}
+[3.520757] (-) TimerEvent: {}
+[3.621434] (-) TimerEvent: {}
+[3.722117] (-) TimerEvent: {}
+[3.822823] (-) TimerEvent: {}
+[3.923496] (-) TimerEvent: {}
+[4.024157] (-) TimerEvent: {}
+[4.124823] (-) TimerEvent: {}
+[4.225526] (-) TimerEvent: {}
+[4.326246] (-) TimerEvent: {}
+[4.426987] (-) TimerEvent: {}
+[4.527654] (-) TimerEvent: {}
+[4.628318] (-) TimerEvent: {}
+[4.728983] (-) TimerEvent: {}
+[4.829657] (-) TimerEvent: {}
+[4.930382] (-) TimerEvent: {}
+[5.031033] (-) TimerEvent: {}
+[5.131680] (-) TimerEvent: {}
+[5.232338] (-) TimerEvent: {}
+[5.333002] (-) TimerEvent: {}
+[5.433672] (-) TimerEvent: {}
+[5.534408] (-) TimerEvent: {}
+[5.635121] (-) TimerEvent: {}
+[5.735792] (-) TimerEvent: {}
+[5.836499] (-) TimerEvent: {}
+[5.937175] (-) TimerEvent: {}
+[6.037841] (-) TimerEvent: {}
+[6.138553] (-) TimerEvent: {}
+[6.239210] (-) TimerEvent: {}
+[6.339870] (-) TimerEvent: {}
+[6.440542] (-) TimerEvent: {}
+[6.541198] (-) TimerEvent: {}
+[6.641877] (-) TimerEvent: {}
+[6.742616] (-) TimerEvent: {}
+[6.843291] (-) TimerEvent: {}
+[6.944009] (-) TimerEvent: {}
+[7.044671] (-) TimerEvent: {}
+[7.145333] (-) TimerEvent: {}
+[7.246009] (-) TimerEvent: {}
+[7.346816] (-) TimerEvent: {}
+[7.447490] (-) TimerEvent: {}
+[7.548145] (-) TimerEvent: {}
+[7.648824] (-) TimerEvent: {}
+[7.749493] (-) TimerEvent: {}
+[7.850165] (-) TimerEvent: {}
+[7.950898] (-) TimerEvent: {}
+[8.051775] (-) TimerEvent: {}
+[8.152622] (-) TimerEvent: {}
+[8.253290] (-) TimerEvent: {}
+[8.353971] (-) TimerEvent: {}
+[8.454691] (-) TimerEvent: {}
+[8.555342] (-) TimerEvent: {}
+[8.656015] (-) TimerEvent: {}
+[8.756688] (-) TimerEvent: {}
+[8.857380] (-) TimerEvent: {}
+[8.958126] (-) TimerEvent: {}
+[9.058866] (-) TimerEvent: {}
+[9.159532] (-) TimerEvent: {}
+[9.260213] (-) TimerEvent: {}
+[9.360915] (-) TimerEvent: {}
+[9.461604] (-) TimerEvent: {}
+[9.562277] (-) TimerEvent: {}
+[9.663003] (-) TimerEvent: {}
+[9.763665] (-) TimerEvent: {}
+[9.864334] (-) TimerEvent: {}
+[9.945862] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:153:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt16\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.946774] (digipot) StderrLine: {'line': b'  153 |   rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KInt16\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[9.947210] (digipot) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.947559] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:153:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.947880] (digipot) StderrLine: {'line': b'  153 |   rclcpp::Publisher<std_msgs::msg::Int16\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[9.948208] (digipot) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.948555] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:153:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[9.948906] (digipot) StderrLine: {'line': b'  153 |   rclcpp::Publisher<std_msgs::msg::Int16>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[9.949229] (digipot) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.949531] (digipot) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[9.954565] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:153:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.955218] (digipot) StderrLine: {'line': b'  153 |   rclcpp::Publisher<std_msgs::msg::Int16>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[9.955645] (digipot) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.956064] (digipot) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[9.964478] (-) TimerEvent: {}
+[9.997160] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::DigipotNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.997786] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdev_address_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.998216] (digipot) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[Kdev_address_\x1b[m\x1b[K = ADS1X15_ADDRESS;\n'}
+[9.998664] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.031689] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:39:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_ADDRESS\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.032272] (digipot) StderrLine: {'line': b'   39 |     dev_address_ = \x1b[01;31m\x1b[KADS1X15_ADDRESS\x1b[m\x1b[K;\n'}
+[10.032651] (digipot) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.064643] (-) TimerEvent: {}
+[10.091039] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:51:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.091689] (digipot) StderrLine: {'line': b'   51 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Int16>("digipot_ctrl", 10);\n'}
+[10.092115] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.093052] (digipot) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.093482] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:51:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt16\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.093837] (digipot) StderrLine: {'line': b'   51 |     publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KInt16\x1b[m\x1b[K>("digipot_ctrl", 10);\n'}
+[10.094180] (digipot) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.094641] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:51:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::create_publisher<<expression error> >(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.095022] (digipot) StderrLine: {'line': b'   51 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Int16>("digipot_ctrl", 10)\x1b[m\x1b[K;\n'}
+[10.095385] (digipot) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.095728] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.096075] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.096458] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.096820] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:7\x1b[m\x1b[K:\n'}
+[10.097163] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.097520] (digipot) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[10.097914] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.098293] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.098727] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:51:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.099071] (digipot) StderrLine: {'line': b'   51 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Int16>("digipot_ctrl", 10)\x1b[m\x1b[K;\n'}
+[10.099410] (digipot) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.144939] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DigipotNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.145588] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:77:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt16\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.146018] (digipot) StderrLine: {'line': b'   77 |       auto message = std_msgs::msg::\x1b[01;31m\x1b[KInt16\x1b[m\x1b[K();\n'}
+[10.146460] (digipot) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.164798] (-) TimerEvent: {}
+[10.171818] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:79:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.172469] (digipot) StderrLine: {'line': b'   79 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[10.172893] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.173272] (digipot) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.223416] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint16_t DigipotNode::read_ADC(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.224020] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:89:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_CONFIG_CQUE_1CONV\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.224445] (digipot) StderrLine: {'line': b'   89 |       \x1b[01;31m\x1b[KADS1X15_REG_CONFIG_CQUE_1CONV\x1b[m\x1b[K |   // Set CQUE to any value other than\n'}
+[10.224795] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.264944] (-) TimerEvent: {}
+[10.275446] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:91:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_CONFIG_CLAT_NONLAT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.276118] (digipot) StderrLine: {'line': b'   91 |       \x1b[01;31m\x1b[KADS1X15_REG_CONFIG_CLAT_NONLAT\x1b[m\x1b[K |  // Non-latching (default val)\n'}
+[10.276539] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.328104] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:92:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_CONFIG_CPOL_ACTVLOW\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.328765] (digipot) StderrLine: {'line': b'   92 |       \x1b[01;31m\x1b[KADS1X15_REG_CONFIG_CPOL_ACTVLOW\x1b[m\x1b[K | // Alert/Rdy active low   (default val)\n'}
+[10.329191] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.365087] (-) TimerEvent: {}
+[10.379353] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:93:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_CONFIG_CMODE_TRAD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.379981] (digipot) StderrLine: {'line': b'   93 |       \x1b[01;31m\x1b[KADS1X15_REG_CONFIG_CMODE_TRAD\x1b[m\x1b[K |    // Traditional comparator (default val)\n'}
+[10.380401] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.433125] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:94:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_CONFIG_MODE_SINGLE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.433771] (digipot) StderrLine: {'line': b'   94 |       \x1b[01;31m\x1b[KADS1X15_REG_CONFIG_MODE_SINGLE\x1b[m\x1b[K |    // Sigle read mode\n'}
+[10.434189] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.465250] (-) TimerEvent: {}
+[10.467617] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:95:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGAIN_TWOTHIRDS\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.468243] (digipot) StderrLine: {'line': b'   95 |       \x1b[01;31m\x1b[KGAIN_TWOTHIRDS\x1b[m\x1b[K |\n'}
+[10.468669] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.510696] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:96:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRATE_ADS1115_128SPS\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.511335] (digipot) StderrLine: {'line': b'   96 |       \x1b[01;31m\x1b[KRATE_ADS1115_128SPS\x1b[m\x1b[K |\n'}
+[10.511758] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.545320] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:97:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMUX_BY_CHANNEL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.545921] (digipot) StderrLine: {'line': b'   97 |       \x1b[01;31m\x1b[KMUX_BY_CHANNEL\x1b[m\x1b[K[channel] |\n'}
+[10.546412] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.565372] (-) TimerEvent: {}
+[10.599728] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:98:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_CONFIG_OS_SINGLE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.600672] (digipot) StderrLine: {'line': b'   98 |       \x1b[01;31m\x1b[KADS1X15_REG_CONFIG_OS_SINGLE\x1b[m\x1b[K;\n'}
+[10.601086] (digipot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.649667] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:100:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_POINTER_CONFIG\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.650542] (digipot) StderrLine: {'line': b'  100 |     write_reg(\x1b[01;31m\x1b[KADS1X15_REG_POINTER_CONFIG\x1b[m\x1b[K, config);\n'}
+[10.650966] (digipot) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.665537] (-) TimerEvent: {}
+[10.702977] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:101:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_POINTER_HITHRESH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.703638] (digipot) StderrLine: {'line': b'  101 |     write_reg(\x1b[01;31m\x1b[KADS1X15_REG_POINTER_HITHRESH\x1b[m\x1b[K, 0x8000);\n'}
+[10.704067] (digipot) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.754085] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:102:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_POINTER_LOWTHRESH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.755087] (digipot) StderrLine: {'line': b'  102 |     write_reg(\x1b[01;31m\x1b[KADS1X15_REG_POINTER_LOWTHRESH\x1b[m\x1b[K, 0x0000);\n'}
+[10.755487] (digipot) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.765662] (-) TimerEvent: {}
+[10.805328] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:109:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KADS1X15_REG_POINTER_CONVERT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.806090] (digipot) StderrLine: {'line': b'  109 |     return (int16_t)(\x1b[01;31m\x1b[KADS1X15_REG_POINTER_CONVERT\x1b[m\x1b[K);\n'}
+[10.806624] (digipot) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.806975] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DigipotNode::write_reg(uint8_t, uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.807321] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:121:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(int)(((unsigned char)((int)data)) & 255)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.807685] (digipot) StderrLine: {'line': b'  121 |         uint8_t buf[3] = {reg, data, \x1b[01;35m\x1b[Kdata & 0xFF\x1b[m\x1b[K};\n'}
+[10.808025] (digipot) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.865840] (-) TimerEvent: {}
+[10.966510] (-) TimerEvent: {}
+[11.067175] (-) TimerEvent: {}
+[11.167838] (-) TimerEvent: {}
+[11.268529] (-) TimerEvent: {}
+[11.369206] (-) TimerEvent: {}
+[11.469881] (-) TimerEvent: {}
+[11.570607] (-) TimerEvent: {}
+[11.671282] (-) TimerEvent: {}
+[11.772016] (-) TimerEvent: {}
+[11.872690] (-) TimerEvent: {}
+[11.973362] (-) TimerEvent: {}
+[12.074035] (-) TimerEvent: {}
+[12.174854] (-) TimerEvent: {}
+[12.275522] (-) TimerEvent: {}
+[12.376190] (-) TimerEvent: {}
+[12.476856] (-) TimerEvent: {}
+[12.577510] (-) TimerEvent: {}
+[12.678186] (-) TimerEvent: {}
+[12.778930] (-) TimerEvent: {}
+[12.879601] (-) TimerEvent: {}
+[12.980281] (-) TimerEvent: {}
+[13.080949] (-) TimerEvent: {}
+[13.181620] (-) TimerEvent: {}
+[13.282299] (-) TimerEvent: {}
+[13.383046] (-) TimerEvent: {}
+[13.483719] (-) TimerEvent: {}
+[13.584388] (-) TimerEvent: {}
+[13.685058] (-) TimerEvent: {}
+[13.785731] (-) TimerEvent: {}
+[13.886437] (-) TimerEvent: {}
+[13.987106] (-) TimerEvent: {}
+[14.087770] (-) TimerEvent: {}
+[14.188441] (-) TimerEvent: {}
+[14.289114] (-) TimerEvent: {}
+[14.389790] (-) TimerEvent: {}
+[14.490457] (-) TimerEvent: {}
+[14.591128] (-) TimerEvent: {}
+[14.691804] (-) TimerEvent: {}
+[14.792479] (-) TimerEvent: {}
+[14.893147] (-) TimerEvent: {}
+[14.993813] (-) TimerEvent: {}
+[15.094477] (-) TimerEvent: {}
+[15.195143] (-) TimerEvent: {}
+[15.295818] (-) TimerEvent: {}
+[15.396501] (-) TimerEvent: {}
+[15.497176] (-) TimerEvent: {}
+[15.597841] (-) TimerEvent: {}
+[15.698557] (-) TimerEvent: {}
+[15.799223] (-) TimerEvent: {}
+[15.899891] (-) TimerEvent: {}
+[16.000563] (-) TimerEvent: {}
+[16.101223] (-) TimerEvent: {}
+[16.201896] (-) TimerEvent: {}
+[16.302612] (-) TimerEvent: {}
+[16.403268] (-) TimerEvent: {}
+[16.503929] (-) TimerEvent: {}
+[16.604598] (-) TimerEvent: {}
+[16.705268] (-) TimerEvent: {}
+[16.805923] (-) TimerEvent: {}
+[16.906656] (-) TimerEvent: {}
+[17.007312] (-) TimerEvent: {}
+[17.107971] (-) TimerEvent: {}
+[17.208654] (-) TimerEvent: {}
+[17.309323] (-) TimerEvent: {}
+[17.409994] (-) TimerEvent: {}
+[17.510727] (-) TimerEvent: {}
+[17.611381] (-) TimerEvent: {}
+[17.712054] (-) TimerEvent: {}
+[17.812714] (-) TimerEvent: {}
+[17.913382] (-) TimerEvent: {}
+[18.014052] (-) TimerEvent: {}
+[18.114792] (-) TimerEvent: {}
+[18.215441] (-) TimerEvent: {}
+[18.316719] (-) TimerEvent: {}
+[18.417383] (-) TimerEvent: {}
+[18.518057] (-) TimerEvent: {}
+[18.618803] (-) TimerEvent: {}
+[18.719479] (-) TimerEvent: {}
+[18.820137] (-) TimerEvent: {}
+[18.920804] (-) TimerEvent: {}
+[19.021469] (-) TimerEvent: {}
+[19.122124] (-) TimerEvent: {}
+[19.222840] (-) TimerEvent: {}
+[19.323482] (-) TimerEvent: {}
+[19.424136] (-) TimerEvent: {}
+[19.524806] (-) TimerEvent: {}
+[19.625471] (-) TimerEvent: {}
+[19.726152] (-) TimerEvent: {}
+[19.826947] (-) TimerEvent: {}
+[19.927633] (-) TimerEvent: {}
+[20.028357] (-) TimerEvent: {}
+[20.129029] (-) TimerEvent: {}
+[20.229699] (-) TimerEvent: {}
+[20.330441] (-) TimerEvent: {}
+[20.370015] (digipot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1\n'}
+[20.370826] (digipot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2\n'}
+[20.371339] (digipot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.376387] (digipot) CommandEnded: {'returncode': 2}
+[20.430636] (-) TimerEvent: {}
+[20.531591] (-) TimerEvent: {}
+[20.634572] (-) TimerEvent: {}
+[20.652213] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 2}
+[20.663668] (-) EventReactorShutdown: {}

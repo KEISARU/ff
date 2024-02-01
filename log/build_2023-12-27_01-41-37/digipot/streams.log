@@ -1,0 +1,27 @@
+[0.355s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[0.598s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[13.440s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.443s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:159:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.446s]   159 |     uint8_t [01;35m[Kvalue[m[K = digipot_.get() + msg->linear.x;
+[13.449s]       |             [01;35m[K^~~~~[m[K
+[13.482s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.483s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:182:42:[m[K [01;31m[Kerror: [m[K‘[01m[KsteeringMap[m[K’ was not declared in this scope; did you mean ‘[01m[KsteeringMap_[m[K’?
+[13.483s]   182 |     uint16_t pwm = (uint16_t)(std::round([01;31m[KsteeringMap[m[K->calPwm(lateral_value)) & 0x0FFF;
+[13.484s]       |                                          [01;31m[K^~~~~~~~~~~[m[K
+[13.484s]       |                                          [32m[KsteeringMap_[m[K
+[13.484s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:182:86:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[13.485s]   182 |     uint16_t pwm = (uint16_t)(std::round(steeringMap->calPwm(lateral_value)) & 0x0FFF[01;31m[K;[m[K
+[13.485s]       |                                                                                      [01;31m[K^[m[K
+[13.486s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:182:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[13.486s]   182 |     uint16_t pwm = (uint16_t)[01;36m[K([m[Kstd::round(steeringMap->calPwm(lateral_value)) & 0x0FFF;
+[13.486s]       |                              [01;36m[K^[m[K
+[13.513s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[13.515s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:192:46:[m[K [01;31m[Kerror: [m[K‘[01m[KsteeringMap[m[K’ was not declared in this scope; did you mean ‘[01m[KsteeringMap_[m[K’?
+[13.517s]   192 |         uint16_t pwm = (uint16_t)(std::round([01;31m[KsteeringMap[m[K->calPwm(40))) & 0x0FFF;
+[13.519s]       |                                              [01;31m[K^~~~~~~~~~~[m[K
+[13.521s]       |                                              [32m[KsteeringMap_[m[K
+[33.935s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+[33.938s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[33.943s] gmake: *** [Makefile:146: all] Error 2
+[33.944s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

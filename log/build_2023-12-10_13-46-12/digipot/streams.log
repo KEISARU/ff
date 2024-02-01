@@ -1,0 +1,64 @@
+[0.250s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.339s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.934s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.964s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.073s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.084s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.108s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.483s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.579s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.639s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.283s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.350s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.350s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.351s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.408s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:128 (target_compile_definitions):
+[5.408s]   target_compile_definitions called with non-compilable target type
+[5.409s] Call Stack (most recent call first):
+[5.409s]   CMakeLists.txt:24 (ament_target_dependencies)
+[5.409s] 
+[5.410s] [0m
+[5.411s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:141 (target_include_directories):
+[5.412s]   target_include_directories called with non-compilable target type
+[5.412s] Call Stack (most recent call first):
+[5.412s]   CMakeLists.txt:24 (ament_target_dependencies)
+[5.413s] 
+[5.413s] [0m
+[5.413s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+[5.414s]   Utility target "digipot" must not be used as the target of a
+[5.414s]   target_link_libraries call.
+[5.414s] Call Stack (most recent call first):
+[5.415s]   CMakeLists.txt:24 (ament_target_dependencies)
+[5.415s] 
+[5.415s] [0m
+[5.416s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:147 (target_include_directories):
+[5.416s]   target_include_directories called with non-compilable target type
+[5.416s] Call Stack (most recent call first):
+[5.417s]   CMakeLists.txt:24 (ament_target_dependencies)
+[5.417s] 
+[5.417s] [0m
+[5.418s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries):
+[5.418s]   Utility target "digipot" must not be used as the target of a
+[5.418s]   target_link_libraries call.
+[5.419s] Call Stack (most recent call first):
+[5.419s]   CMakeLists.txt:24 (ament_target_dependencies)
+[5.419s] 
+[5.420s] [0m
+[5.420s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.454s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.457s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>
+[5.458s] -- Configured cppcheck exclude dirs and/or files: 
+[5.459s] -- Added test 'lint_cmake' to check CMake code style
+[5.464s] -- Added test 'uncrustify' to check C / C++ code style
+[5.465s] -- Configured uncrustify additional arguments: 
+[5.466s] -- Added test 'xmllint' to check XML markup files
+[5.477s] -- Configuring incomplete, errors occurred!
+[5.477s] See also "/ros2_ws/build/digipot/CMakeFiles/CMakeOutput.log".
+[5.506s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1
+[5.512s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

@@ -1,0 +1,34 @@
+[0.283s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[0.583s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[13.718s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[13.718s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoy_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoy_sub_[m[K’?
+[13.719s]    58 |     [01;31m[Kjoy_sub[m[K+ = create_subscription<sensor_msgs::msg::Joy>(
+[13.719s]       |     [01;31m[K^~~~~~~[m[K
+[13.720s]       |     [32m[Kjoy_sub_[m[K
+[13.720s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:58:14:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[13.720s]    58 |     joy_sub+ [01;31m[K=[m[K create_subscription<sensor_msgs::msg::Joy>(
+[13.721s]       |              [01;31m[K^[m[K
+[13.805s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.806s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:87:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.807s]    87 |     uint8_t [01;35m[Kvalue[m[K = digipot_.get() + msg->linear.x;
+[13.807s]       |             [01;35m[K^~~~~[m[K
+[13.852s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.855s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:102:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kfloat_t[m[K’?
+[13.857s]   102 |     [01;31m[Kfloat32_t[m[K fb_value = msg->axes[1];
+[13.859s]       |     [01;31m[K^~~~~~~~~[m[K
+[13.861s]       |     [32m[Kfloat_t[m[K
+[13.863s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:103:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krl_value[m[K’
+[13.868s]   103 |     float32_t [01;31m[Krl_value[m[K = msg->axes[2];
+[13.870s]       |               [01;31m[K^~~~~~~~[m[K
+[13.884s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:105:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kfb_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[13.884s]   105 |     digipot_.set(static_cast<int>(([01;31m[Kfb_value[m[K + 1.0)/(2.0) * (-99.0) + 99.0));
+[13.885s]       |                                    [01;31m[K^~~~~~~~[m[K
+[13.886s]       |                                    [32m[Ksi_value[m[K
+[13.887s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:100:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.887s]   100 |   void joyCallback([01;35m[Kconst sensor_msgs::msg::Joy::SharedPtr msg[m[K)
+[13.888s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[34.878s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+[34.878s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[34.880s] gmake: *** [Makefile:146: all] Error 2
+[34.886s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

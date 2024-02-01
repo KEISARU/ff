@@ -1,0 +1,30 @@
+[3.081s] Invoking command in '/ros2_ws/build/ws_server': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/ws_server/build --no-deps install_data
+[3.908s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.909s]   warnings.warn(
+[4.032s] running develop
+[4.033s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.034s]   warnings.warn(
+[4.038s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.039s]   warnings.warn(
+[4.491s] running egg_info
+[4.492s] creating ws_server.egg-info
+[4.492s] writing ws_server.egg-info/PKG-INFO
+[4.493s] writing dependency_links to ws_server.egg-info/dependency_links.txt
+[4.493s] writing entry points to ws_server.egg-info/entry_points.txt
+[4.494s] writing requirements to ws_server.egg-info/requires.txt
+[4.494s] writing top-level names to ws_server.egg-info/top_level.txt
+[4.495s] writing manifest file 'ws_server.egg-info/SOURCES.txt'
+[4.506s] reading manifest file 'ws_server.egg-info/SOURCES.txt'
+[4.509s] writing manifest file 'ws_server.egg-info/SOURCES.txt'
+[4.515s] running build_ext
+[4.516s] Creating /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws-server.egg-link (link to .)
+[4.520s] Installing ws_server_node script to /ros2_ws/install/ws_server/lib/ws_server
+[4.521s] 
+[4.521s] Installed /ros2_ws/build/ws_server
+[4.522s] running install_data
+[4.522s] creating /ros2_ws/install/ws_server/share/ament_index
+[4.523s] creating /ros2_ws/install/ws_server/share/ament_index/resource_index
+[4.523s] creating /ros2_ws/install/ws_server/share/ament_index/resource_index/packages
+[4.524s] copying resource/ws_server -> /ros2_ws/install/ws_server/share/ament_index/resource_index/packages
+[4.524s] copying package.xml -> /ros2_ws/install/ws_server/share/ws_server
+[4.648s] Invoked command in '/ros2_ws/build/ws_server' returned '0': PYTHONPATH=/ros2_ws/build/ws_server/prefix_override:/ros2_ws/install/ws_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/ws_server/build --no-deps install_data

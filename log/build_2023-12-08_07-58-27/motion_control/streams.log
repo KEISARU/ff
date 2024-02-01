@@ -1,0 +1,23 @@
+[5.242s] Invoking command in '/ros2_ws/build/motion_control': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/motion_control/build --no-deps install_data
+[6.142s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.144s]   warnings.warn(
+[6.277s] running develop
+[6.279s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.281s]   warnings.warn(
+[6.286s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.288s]   warnings.warn(
+[6.812s] running egg_info
+[6.814s] writing motion_control.egg-info/PKG-INFO
+[6.819s] writing dependency_links to motion_control.egg-info/dependency_links.txt
+[6.824s] writing entry points to motion_control.egg-info/entry_points.txt
+[6.827s] writing requirements to motion_control.egg-info/requires.txt
+[6.829s] writing top-level names to motion_control.egg-info/top_level.txt
+[6.835s] reading manifest file 'motion_control.egg-info/SOURCES.txt'
+[6.842s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[6.854s] running build_ext
+[6.861s] Creating /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion-control.egg-link (link to .)
+[6.866s] Installing speed_control_node script to /ros2_ws/install/motion_control/lib/motion_control
+[6.867s] 
+[6.869s] Installed /ros2_ws/build/motion_control
+[6.870s] running install_data
+[7.535s] Invoked command in '/ros2_ws/build/motion_control' returned '0': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/motion_control/build --no-deps install_data

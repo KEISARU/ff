@@ -1,0 +1,7 @@
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdelivery_bot_package/DigiPot.h: No such file or directory
+    2 | #include [01;31m[K<delivery_bot_package/DigiPot.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:90: CMakeFiles/digipot.dir/src/DigiPot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

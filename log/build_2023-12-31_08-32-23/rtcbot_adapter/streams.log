@@ -1,0 +1,41 @@
+[4.106s] Invoking command in '/ros2_ws/build/rtcbot_adapter': PYTHONPATH=/ros2_ws/build/rtcbot_adapter/prefix_override:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/rtcbot_adapter/build
+[5.130s] running develop
+[5.133s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.134s]   warnings.warn(
+[5.140s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.141s]   warnings.warn(
+[5.593s] Removing /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot-adapter.egg-link (link to .)
+[5.736s] Invoked command in '/ros2_ws/build/rtcbot_adapter' returned '0': PYTHONPATH=/ros2_ws/build/rtcbot_adapter/prefix_override:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/rtcbot_adapter/build
+[5.742s] Invoking command in '/ros2_ws/src/rtcbot_adapter': PYTHONPATH=/ros2_ws/build/rtcbot_adapter/prefix_override:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rtcbot_adapter build --build-base /ros2_ws/build/rtcbot_adapter/build install --record /ros2_ws/build/rtcbot_adapter/install.log --single-version-externally-managed
+[6.717s] running egg_info
+[6.721s] writing ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/PKG-INFO
+[6.722s] writing dependency_links to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/dependency_links.txt
+[6.722s] writing entry points to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/entry_points.txt
+[6.723s] writing requirements to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/requires.txt
+[6.724s] writing top-level names to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/top_level.txt
+[6.731s] reading manifest file '../../build/rtcbot_adapter/rtcbot_adapter.egg-info/SOURCES.txt'
+[6.733s] adding license file 'LICENSE'
+[6.735s] writing manifest file '../../build/rtcbot_adapter/rtcbot_adapter.egg-info/SOURCES.txt'
+[6.736s] running build
+[6.736s] running build_py
+[6.737s] creating /ros2_ws/build/rtcbot_adapter/build
+[6.737s] creating /ros2_ws/build/rtcbot_adapter/build/lib
+[6.738s] creating /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter
+[6.738s] copying rtcbot_adapter/__init__.py -> /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter
+[6.739s] copying rtcbot_adapter/rtcbot_adpter.py -> /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter
+[6.741s] running install
+[6.742s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.742s]   warnings.warn(
+[6.743s] running install_lib
+[6.747s] creating /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter
+[6.747s] copying /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter/__init__.py -> /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter
+[6.748s] copying /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter/rtcbot_adpter.py -> /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter
+[6.750s] byte-compiling /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter/__init__.py to __init__.cpython-310.pyc
+[6.750s] byte-compiling /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter/rtcbot_adpter.py to rtcbot_adpter.cpython-310.pyc
+[6.754s] running install_data
+[6.775s] running install_egg_info
+[6.785s] Copying ../../build/rtcbot_adapter/rtcbot_adapter.egg-info to /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter-0.0.0-py3.10.egg-info
+[6.793s] running install_scripts
+[6.939s] Installing rtcbot_adpter script to /ros2_ws/install/rtcbot_adapter/lib/rtcbot_adapter
+[6.941s] writing list of installed files to '/ros2_ws/build/rtcbot_adapter/install.log'
+[7.084s] Invoked command in '/ros2_ws/src/rtcbot_adapter' returned '0': PYTHONPATH=/ros2_ws/build/rtcbot_adapter/prefix_override:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rtcbot_adapter build --build-base /ros2_ws/build/rtcbot_adapter/build install --record /ros2_ws/build/rtcbot_adapter/install.log --single-version-externally-managed

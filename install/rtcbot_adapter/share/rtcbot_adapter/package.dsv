@@ -1,0 +1,6 @@
+source;share/rtcbot_adapter/hook/pythonpath.ps1
+source;share/rtcbot_adapter/hook/pythonpath.dsv
+source;share/rtcbot_adapter/hook/pythonpath.sh
+source;share/rtcbot_adapter/hook/ament_prefix_path.ps1
+source;share/rtcbot_adapter/hook/ament_prefix_path.dsv
+source;share/rtcbot_adapter/hook/ament_prefix_path.sh

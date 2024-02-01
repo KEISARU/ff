@@ -1,0 +1,26 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating rtcbot_adapter.egg-info
+writing rtcbot_adapter.egg-info/PKG-INFO
+writing dependency_links to rtcbot_adapter.egg-info/dependency_links.txt
+writing entry points to rtcbot_adapter.egg-info/entry_points.txt
+writing requirements to rtcbot_adapter.egg-info/requires.txt
+writing top-level names to rtcbot_adapter.egg-info/top_level.txt
+writing manifest file 'rtcbot_adapter.egg-info/SOURCES.txt'
+reading manifest file 'rtcbot_adapter.egg-info/SOURCES.txt'
+writing manifest file 'rtcbot_adapter.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot-adapter.egg-link (link to .)
+Installing rtcbot_adpter script to /ros2_ws/install/rtcbot_adapter/lib/rtcbot_adapter
+
+Installed /ros2_ws/build/rtcbot_adapter
+running install_data
+creating /ros2_ws/install/rtcbot_adapter/share/ament_index
+creating /ros2_ws/install/rtcbot_adapter/share/ament_index/resource_index
+creating /ros2_ws/install/rtcbot_adapter/share/ament_index/resource_index/packages
+copying resource/rtcbot_adapter -> /ros2_ws/install/rtcbot_adapter/share/ament_index/resource_index/packages
+copying package.xml -> /ros2_ws/install/rtcbot_adapter/share/rtcbot_adapter

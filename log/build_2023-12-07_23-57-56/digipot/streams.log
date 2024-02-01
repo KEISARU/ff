@@ -1,0 +1,34 @@
+[0.154s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[0.337s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[10.055s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kint16_t DigipotNode::read_ADC(uint8_t)[m[K’:
+[10.055s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:101:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K32768[m[K’ to ‘[01m[K0[m[K’ [[01;35m[K-Woverflow[m[K]
+[10.055s]   101 |     write_reg(ADS1X15_REG_POINTER_HITHRESH, [01;35m[K0x8000[m[K);
+[10.056s]       |                                             [01;35m[K^~~~~~[m[K
+[10.056s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::write_reg(uint8_t, uint8_t)[m[K’:
+[10.056s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:121:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(int)(((unsigned char)((int)data)) & 255)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;35m[K-Wnarrowing[m[K]
+[10.057s]   121 |         uint8_t buf[3] = {reg, data, [01;35m[Kdata & 0xFF[m[K};
+[10.057s]       |                                      [01;35m[K~~~~~^~~~~~[m[K
+[34.651s] [ 66%] [32m[1mLinking CXX executable digipot[0m
+[36.691s] [100%] Built target digipot
+[36.728s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[36.817s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot
+[36.842s] -- Install configuration: ""
+[36.844s] -- Execute custom install script
+[36.845s] -- Up-to-date symlink: /ros2_ws/install/digipot/lib/digipot/digipot
+[36.845s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+[36.846s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+[36.846s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+[36.847s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+[36.847s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+[36.848s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+[36.848s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+[36.849s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+[36.849s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+[36.850s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+[36.851s] -- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+[36.875s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+[36.875s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+[36.876s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+[36.876s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/package.xml
+[36.882s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot

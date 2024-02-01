@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoy_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoy_sub_[m[K’?
+   58 |     [01;31m[Kjoy_sub[m[K+ = create_subscription<sensor_msgs::msg::Joy>(
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kjoy_sub_[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:58:14:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   58 |     joy_sub+ [01;31m[K=[m[K create_subscription<sensor_msgs::msg::Joy>(
+      |              [01;31m[K^[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:87:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   87 |     uint8_t [01;35m[Kvalue[m[K = digipot_.get() + msg->linear.x;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:100:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  100 |   void joyCallback([01;35m[Kconst sensor_msgs::msg::Joy::SharedPtr msg[m[K)
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

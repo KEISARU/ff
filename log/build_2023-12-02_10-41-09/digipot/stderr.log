@@ -1,0 +1,25 @@
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:9:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KDigipotNode[m[K’ does not have any field named ‘[01m[Kdigipo_[m[K’
+    9 |   DigipotNode(): Node("digipot"), [01;31m[Kdigipo_[m[K(21,19,23)
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:9:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigiPot::DigiPot()[m[K’
+    9 |   DigipotNode(): Node("digipot"), digipo_(21,19,23[01;31m[K)[m[K
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:4[m[K:
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDigiPot::DigiPot(int, int, int)[m[K’
+   12 |     [01;36m[KDigiPot[m[K(int udPin, int incPin, int csPin);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr DigiPot::DigiPot(const DigiPot&)[m[K’
+   10 | class [01;36m[KDigiPot[m[K {
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr DigiPot::DigiPot(DigiPot&&)[m[K’
+[01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[KudPin_[m[K’ was not declared in this scope; did you mean ‘[01m[KunPin_[m[K’?
+   16 |     [01;31m[KudPin_[m[K = get_parameter("udPin").as_int();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KunPin_[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

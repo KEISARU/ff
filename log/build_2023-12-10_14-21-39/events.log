@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.002245] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.002445] (-) JobUnselected: {'identifier': 'digipot_interfaces'}
+[0.002821] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.002997] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.003101] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003453] (-) JobUnselected: {'identifier': 'vision'}
+[0.003658] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.003952] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict([('digipot_interfaces', '/ros2_ws/install/digipot_interfaces')])}
+[0.004154] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.098977] (-) TimerEvent: {}
+[0.200032] (-) TimerEvent: {}
+[0.227716] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.230245] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[0.233290] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot_interfaces:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:/ros2_ws/install/digipot/local/lib/python3.10/dist-packages:/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[0.300218] (-) TimerEvent: {}
+[0.317699] (digipot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400377] (-) TimerEvent: {}
+[0.501056] (-) TimerEvent: {}
+[0.601708] (-) TimerEvent: {}
+[0.703891] (-) TimerEvent: {}
+[0.804587] (-) TimerEvent: {}
+[0.905272] (-) TimerEvent: {}
+[0.907652] (digipot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.936099] (digipot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.005517] (-) TimerEvent: {}
+[1.049421] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.061551] (digipot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.089452] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105687] (-) TimerEvent: {}
+[1.146808] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.205860] (-) TimerEvent: {}
+[1.224900] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.306034] (-) TimerEvent: {}
+[1.406689] (-) TimerEvent: {}
+[1.505914] (digipot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.507450] (-) TimerEvent: {}
+[1.512604] (digipot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.607634] (-) TimerEvent: {}
+[1.708369] (-) TimerEvent: {}
+[1.809060] (-) TimerEvent: {}
+[1.909712] (-) TimerEvent: {}
+[1.941310] (digipot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.009886] (-) TimerEvent: {}
+[2.110591] (-) TimerEvent: {}
+[2.211273] (-) TimerEvent: {}
+[2.311954] (-) TimerEvent: {}
+[2.412674] (-) TimerEvent: {}
+[2.513397] (-) TimerEvent: {}
+[2.614024] (-) TimerEvent: {}
+[2.710046] (digipot) StdoutLine: {'line': b'-- Found digipot_interfaces: 0.0.0 (/ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake)\n'}
+[2.714164] (-) TimerEvent: {}
+[2.779604] (digipot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.814330] (-) TimerEvent: {}
+[2.914979] (-) TimerEvent: {}
+[3.015644] (-) TimerEvent: {}
+[3.096037] (digipot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.096758] (digipot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>\n'}
+[3.097257] (digipot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.099185] (digipot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.103229] (digipot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.103748] (digipot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.104716] (digipot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.108183] (digipot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.115775] (-) TimerEvent: {}
+[3.149018] (digipot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.158092] (digipot) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/digipot\n'}
+[3.215948] (-) TimerEvent: {}
+[3.233226] (digipot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target digipot\x1b[0m\n'}
+[3.296408] (digipot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o\x1b[0m\n'}
+[3.316117] (-) TimerEvent: {}
+[3.416788] (-) TimerEvent: {}
+[3.517710] (-) TimerEvent: {}
+[3.618365] (-) TimerEvent: {}
+[3.720534] (-) TimerEvent: {}
+[3.821216] (-) TimerEvent: {}
+[3.921853] (-) TimerEvent: {}
+[4.022501] (-) TimerEvent: {}
+[4.123186] (-) TimerEvent: {}
+[4.223842] (-) TimerEvent: {}
+[4.264135] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:13:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdigipot_interfaces/msg/Digipot.hpp: No such file or directory\n'}
+[4.264777] (digipot) StderrLine: {'line': b'   13 | #include \x1b[01;31m\x1b[K"digipot_interfaces/msg/Digipot.hpp"\x1b[m\x1b[K\n'}
+[4.265789] (digipot) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.266230] (digipot) StderrLine: {'line': b'compilation terminated.\n'}
+[4.275711] (digipot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1\n'}
+[4.276423] (digipot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2\n'}
+[4.276988] (digipot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.282515] (digipot) CommandEnded: {'returncode': 2}
+[4.324022] (-) TimerEvent: {}
+[4.426872] (-) TimerEvent: {}
+[4.528612] (-) TimerEvent: {}
+[4.632577] (-) TimerEvent: {}
+[4.717565] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 2}
+[4.729207] (-) EventReactorShutdown: {}

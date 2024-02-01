@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target digipot_node[0m
+[  2%] Built target digipot__cpp
+[ 11%] Built target digipot__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_digipot
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_cpp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/digipot_node.dir/src/digipot.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_introspection_c[0m
+[ 23%] Built target digipot__rosidl_typesupport_cpp
+[ 41%] Built target digipot__rosidl_typesupport_introspection_c
+[ 41%] Built target digipot__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_introspection_cpp[0m
+[ 50%] Built target digipot__rosidl_typesupport_c
+[ 58%] Built target digipot__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_fastrtps_c[0m
+[ 67%] Built target digipot__rosidl_typesupport_fastrtps_c
+[ 67%] Built target digipot
+[ 70%] Built target digipot__py
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_generator_py[0m
+[ 76%] Built target digipot__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 82%] Built target digipot__rosidl_typesupport_introspection_c__pyext
+[ 88%] Built target digipot__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_c__pyext[0m
+[ 94%] Built target digipot__rosidl_typesupport_c__pyext
+running egg_info
+writing digipot.egg-info/PKG-INFO
+writing dependency_links to digipot.egg-info/dependency_links.txt
+writing top-level names to digipot.egg-info/top_level.txt
+reading manifest file 'digipot.egg-info/SOURCES.txt'
+writing manifest file 'digipot.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_digipot_egg
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kdigipot/msg/Digipot.hpp: No such file or directory
+   13 | #include [01;31m[K"digipot/msg/Digipot.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/digipot_node.dir/build.make:76: CMakeFiles/digipot_node.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/digipot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

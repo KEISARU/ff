@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.001067] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.001991] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.002537] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.002822] (-) JobUnselected: {'identifier': 'vision'}
+[0.003027] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.003297] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict()}
+[0.003556] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.099119] (-) TimerEvent: {}
+[0.200041] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.201116] (-) TimerEvent: {}
+[0.202808] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[0.205696] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[0.301303] (-) TimerEvent: {}
+[0.337416] (digipot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target digipot\x1b[0m\n'}
+[0.396068] (digipot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o\x1b[0m\n'}
+[0.401441] (-) TimerEvent: {}
+[0.502430] (-) TimerEvent: {}
+[0.603390] (-) TimerEvent: {}
+[0.704119] (-) TimerEvent: {}
+[0.804813] (-) TimerEvent: {}
+[0.905443] (-) TimerEvent: {}
+[1.006083] (-) TimerEvent: {}
+[1.106708] (-) TimerEvent: {}
+[1.207340] (-) TimerEvent: {}
+[1.307973] (-) TimerEvent: {}
+[1.408648] (-) TimerEvent: {}
+[1.509349] (-) TimerEvent: {}
+[1.610048] (-) TimerEvent: {}
+[1.710741] (-) TimerEvent: {}
+[1.811384] (-) TimerEvent: {}
+[1.912025] (-) TimerEvent: {}
+[2.012671] (-) TimerEvent: {}
+[2.113386] (-) TimerEvent: {}
+[2.214044] (-) TimerEvent: {}
+[2.314684] (-) TimerEvent: {}
+[2.415348] (-) TimerEvent: {}
+[2.516012] (-) TimerEvent: {}
+[2.616676] (-) TimerEvent: {}
+[2.717454] (-) TimerEvent: {}
+[2.818106] (-) TimerEvent: {}
+[2.918784] (-) TimerEvent: {}
+[3.019448] (-) TimerEvent: {}
+[3.120114] (-) TimerEvent: {}
+[3.220834] (-) TimerEvent: {}
+[3.321496] (-) TimerEvent: {}
+[3.422204] (-) TimerEvent: {}
+[3.522888] (-) TimerEvent: {}
+[3.623559] (-) TimerEvent: {}
+[3.724227] (-) TimerEvent: {}
+[3.825000] (-) TimerEvent: {}
+[3.925678] (-) TimerEvent: {}
+[4.026356] (-) TimerEvent: {}
+[4.127021] (-) TimerEvent: {}
+[4.227683] (-) TimerEvent: {}
+[4.328342] (-) TimerEvent: {}
+[4.429081] (-) TimerEvent: {}
+[4.529744] (-) TimerEvent: {}
+[4.630407] (-) TimerEvent: {}
+[4.731061] (-) TimerEvent: {}
+[4.831733] (-) TimerEvent: {}
+[4.932405] (-) TimerEvent: {}
+[5.033292] (-) TimerEvent: {}
+[5.133945] (-) TimerEvent: {}
+[5.234608] (-) TimerEvent: {}
+[5.335266] (-) TimerEvent: {}
+[5.435940] (-) TimerEvent: {}
+[5.536621] (-) TimerEvent: {}
+[5.637382] (-) TimerEvent: {}
+[5.738046] (-) TimerEvent: {}
+[5.838750] (-) TimerEvent: {}
+[5.939423] (-) TimerEvent: {}
+[6.040251] (-) TimerEvent: {}
+[6.141129] (-) TimerEvent: {}
+[6.241799] (-) TimerEvent: {}
+[6.342486] (-) TimerEvent: {}
+[6.443152] (-) TimerEvent: {}
+[6.543828] (-) TimerEvent: {}
+[6.644495] (-) TimerEvent: {}
+[6.745222] (-) TimerEvent: {}
+[6.845889] (-) TimerEvent: {}
+[6.946594] (-) TimerEvent: {}
+[7.047285] (-) TimerEvent: {}
+[7.147946] (-) TimerEvent: {}
+[7.248608] (-) TimerEvent: {}
+[7.349324] (-) TimerEvent: {}
+[7.449977] (-) TimerEvent: {}
+[7.550640] (-) TimerEvent: {}
+[7.651299] (-) TimerEvent: {}
+[7.752857] (-) TimerEvent: {}
+[7.853511] (-) TimerEvent: {}
+[7.954188] (-) TimerEvent: {}
+[8.054855] (-) TimerEvent: {}
+[8.155575] (-) TimerEvent: {}
+[8.256438] (-) TimerEvent: {}
+[8.357195] (-) TimerEvent: {}
+[8.457883] (-) TimerEvent: {}
+[8.558556] (-) TimerEvent: {}
+[8.659241] (-) TimerEvent: {}
+[8.759957] (-) TimerEvent: {}
+[8.860637] (-) TimerEvent: {}
+[8.961354] (-) TimerEvent: {}
+[9.062013] (-) TimerEvent: {}
+[9.162695] (-) TimerEvent: {}
+[9.263360] (-) TimerEvent: {}
+[9.364023] (-) TimerEvent: {}
+[9.464674] (-) TimerEvent: {}
+[9.565416] (-) TimerEvent: {}
+[9.666102] (-) TimerEvent: {}
+[9.766762] (-) TimerEvent: {}
+[9.867430] (-) TimerEvent: {}
+[9.935172] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::DigipotNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.935853] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:9:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KDigipotNode\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kdigipo_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.936823] (digipot) StderrLine: {'line': b'    9 |   DigipotNode(): Node("digipot"), \x1b[01;31m\x1b[Kdigipo_\x1b[m\x1b[K(21,19,23)\n'}
+[9.937289] (digipot) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.937688] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:9:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDigiPot::DigiPot()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.938060] (digipot) StderrLine: {'line': b'    9 |   DigipotNode(): Node("digipot"), digipo_(21,19,23\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[9.938414] (digipot) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.938783] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:4\x1b[m\x1b[K:\n'}
+[9.939119] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KDigiPot::DigiPot(int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.939456] (digipot) StderrLine: {'line': b'   12 |     \x1b[01;36m\x1b[KDigiPot\x1b[m\x1b[K(int udPin, int incPin, int csPin);\n'}
+[9.939791] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.940120] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[9.940449] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr DigiPot::DigiPot(const DigiPot&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.940885] (digipot) StderrLine: {'line': b'   10 | class \x1b[01;36m\x1b[KDigiPot\x1b[m\x1b[K {\n'}
+[9.941263] (digipot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.941613] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[9.941951] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr DigiPot::DigiPot(DigiPot&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.942317] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[9.961690] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:16:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KudPin_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KunPin_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.962287] (digipot) StderrLine: {'line': b'   16 |     \x1b[01;31m\x1b[KudPin_\x1b[m\x1b[K = get_parameter("udPin").as_int();\n'}
+[9.962682] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.963055] (digipot) StderrLine: {'line': b'      |     \x1b[32m\x1b[KunPin_\x1b[m\x1b[K\n'}
+[9.967564] (-) TimerEvent: {}
+[10.068198] (-) TimerEvent: {}
+[10.169240] (-) TimerEvent: {}
+[10.270210] (-) TimerEvent: {}
+[10.370906] (-) TimerEvent: {}
+[10.471910] (-) TimerEvent: {}
+[10.572584] (-) TimerEvent: {}
+[10.673318] (-) TimerEvent: {}
+[10.773986] (-) TimerEvent: {}
+[10.874656] (-) TimerEvent: {}
+[10.975327] (-) TimerEvent: {}
+[11.075992] (-) TimerEvent: {}
+[11.176663] (-) TimerEvent: {}
+[11.277402] (-) TimerEvent: {}
+[11.378090] (-) TimerEvent: {}
+[11.478774] (-) TimerEvent: {}
+[11.579454] (-) TimerEvent: {}
+[11.680129] (-) TimerEvent: {}
+[11.780832] (-) TimerEvent: {}
+[11.881512] (-) TimerEvent: {}
+[11.982161] (-) TimerEvent: {}
+[12.082830] (-) TimerEvent: {}
+[12.183488] (-) TimerEvent: {}
+[12.284160] (-) TimerEvent: {}
+[12.384863] (-) TimerEvent: {}
+[12.485532] (-) TimerEvent: {}
+[12.586200] (-) TimerEvent: {}
+[12.686863] (-) TimerEvent: {}
+[12.787538] (-) TimerEvent: {}
+[12.888213] (-) TimerEvent: {}
+[12.988878] (-) TimerEvent: {}
+[13.089560] (-) TimerEvent: {}
+[13.190232] (-) TimerEvent: {}
+[13.290950] (-) TimerEvent: {}
+[13.391815] (-) TimerEvent: {}
+[13.492494] (-) TimerEvent: {}
+[13.596253] (-) TimerEvent: {}
+[13.697008] (-) TimerEvent: {}
+[13.797648] (-) TimerEvent: {}
+[13.898329] (-) TimerEvent: {}
+[13.999046] (-) TimerEvent: {}
+[14.099725] (-) TimerEvent: {}
+[14.200424] (-) TimerEvent: {}
+[14.301143] (-) TimerEvent: {}
+[14.401813] (-) TimerEvent: {}
+[14.502507] (-) TimerEvent: {}
+[14.603178] (-) TimerEvent: {}
+[14.703833] (-) TimerEvent: {}
+[14.804503] (-) TimerEvent: {}
+[14.905233] (-) TimerEvent: {}
+[15.005898] (-) TimerEvent: {}
+[15.106569] (-) TimerEvent: {}
+[15.207242] (-) TimerEvent: {}
+[15.307912] (-) TimerEvent: {}
+[15.408586] (-) TimerEvent: {}
+[15.509302] (-) TimerEvent: {}
+[15.609968] (-) TimerEvent: {}
+[15.710623] (-) TimerEvent: {}
+[15.811272] (-) TimerEvent: {}
+[15.911948] (-) TimerEvent: {}
+[16.012617] (-) TimerEvent: {}
+[16.113339] (-) TimerEvent: {}
+[16.214010] (-) TimerEvent: {}
+[16.314682] (-) TimerEvent: {}
+[16.415350] (-) TimerEvent: {}
+[16.516003] (-) TimerEvent: {}
+[16.616672] (-) TimerEvent: {}
+[16.717397] (-) TimerEvent: {}
+[16.818168] (-) TimerEvent: {}
+[16.918919] (-) TimerEvent: {}
+[17.019656] (-) TimerEvent: {}
+[17.120333] (-) TimerEvent: {}
+[17.221067] (-) TimerEvent: {}
+[17.321749] (-) TimerEvent: {}
+[17.422423] (-) TimerEvent: {}
+[17.523113] (-) TimerEvent: {}
+[17.623939] (-) TimerEvent: {}
+[17.724602] (-) TimerEvent: {}
+[17.825319] (-) TimerEvent: {}
+[17.925997] (-) TimerEvent: {}
+[18.026668] (-) TimerEvent: {}
+[18.127344] (-) TimerEvent: {}
+[18.228283] (-) TimerEvent: {}
+[18.329123] (-) TimerEvent: {}
+[18.429789] (-) TimerEvent: {}
+[18.530424] (-) TimerEvent: {}
+[18.631062] (-) TimerEvent: {}
+[18.731713] (-) TimerEvent: {}
+[18.832365] (-) TimerEvent: {}
+[18.933083] (-) TimerEvent: {}
+[19.033765] (-) TimerEvent: {}
+[19.134529] (-) TimerEvent: {}
+[19.235356] (-) TimerEvent: {}
+[19.336034] (-) TimerEvent: {}
+[19.436708] (-) TimerEvent: {}
+[19.537434] (-) TimerEvent: {}
+[19.594464] (digipot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1\n'}
+[19.595291] (digipot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2\n'}
+[19.596040] (digipot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.600585] (digipot) CommandEnded: {'returncode': 2}
+[19.637572] (-) TimerEvent: {}
+[19.738387] (-) TimerEvent: {}
+[19.839115] (-) TimerEvent: {}
+[19.883944] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 2}
+[19.895300] (-) EventReactorShutdown: {}

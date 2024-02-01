@@ -1,0 +1,38 @@
+[0.338s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.551s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[13.767s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.768s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:84:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.768s]    84 |     uint8_t [01;35m[Kvalue[m[K = digipot_.get() + msg->linear.x;
+[13.769s]       |             [01;35m[K^~~~~[m[K
+[57.930s] [ 66%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/DigiPot.cpp.o[0m
+[59.917s] [01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:[m[K In member function ‘[01m[Kvoid DigiPot::increase(int)[m[K’:
+[59.918s] [01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:37:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kamount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[59.918s]    37 | void DigiPot::increase([01;35m[Kint amount[m[K) {
+[59.918s]       |                        [01;35m[K~~~~^~~~~~[m[K
+[59.919s] [01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:[m[K In member function ‘[01m[Kvoid DigiPot::decrease(int)[m[K’:
+[59.919s] [01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:48:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kamount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[59.920s]    48 | void DigiPot::decrease([01;35m[Kint amount[m[K) {
+[59.920s]       |                        [01;35m[K~~~~^~~~~~[m[K
+[60.167s] [100%] [32m[1mLinking CXX executable digipot[0m
+[63.371s] [100%] Built target digipot
+[63.403s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[63.556s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/digipot
+[63.593s] -- Install configuration: ""
+[63.594s] -- Execute custom install script
+[63.596s] -- Up-to-date symlink: /ros2_ws/install/digipot/lib/digipot/digipot
+[63.598s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+[63.600s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+[63.601s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+[63.603s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+[63.604s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+[63.605s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+[63.606s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+[63.606s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+[63.607s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+[63.607s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+[63.608s] -- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+[63.641s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+[63.642s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+[63.643s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+[63.643s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/package.xml
+[63.652s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:/ros2_ws/install/digipot/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros2_ws/build/digipot

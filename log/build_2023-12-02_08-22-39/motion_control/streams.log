@@ -1,0 +1,31 @@
+[5.261s] Invoking command in '/ros2_ws/build/motion_control': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/motion_control/build --no-deps install_data
+[6.140s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.140s]   warnings.warn(
+[6.271s] running develop
+[6.273s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.274s]   warnings.warn(
+[6.279s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.280s]   warnings.warn(
+[6.712s] running egg_info
+[6.713s] creating motion_control.egg-info
+[6.714s] writing motion_control.egg-info/PKG-INFO
+[6.714s] writing dependency_links to motion_control.egg-info/dependency_links.txt
+[6.715s] writing entry points to motion_control.egg-info/entry_points.txt
+[6.715s] writing requirements to motion_control.egg-info/requires.txt
+[6.716s] writing top-level names to motion_control.egg-info/top_level.txt
+[6.716s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[6.725s] reading manifest file 'motion_control.egg-info/SOURCES.txt'
+[6.728s] writing manifest file 'motion_control.egg-info/SOURCES.txt'
+[6.734s] running build_ext
+[6.736s] Creating /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion-control.egg-link (link to .)
+[6.741s] Installing speed_control_node script to /ros2_ws/install/motion_control/lib/motion_control
+[6.743s] 
+[6.743s] Installed /ros2_ws/build/motion_control
+[6.744s] running install_data
+[6.745s] creating /ros2_ws/install/motion_control/share/ament_index
+[6.745s] creating /ros2_ws/install/motion_control/share/ament_index/resource_index
+[6.747s] creating /ros2_ws/install/motion_control/share/ament_index/resource_index/packages
+[6.748s] copying resource/motion_control -> /ros2_ws/install/motion_control/share/ament_index/resource_index/packages
+[6.748s] copying package.xml -> /ros2_ws/install/motion_control/share/motion_control
+[6.749s] copying launch/jetbot_launch.py -> /ros2_ws/install/motion_control/share/motion_control
+[6.905s] Invoked command in '/ros2_ws/build/motion_control' returned '0': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/motion_control/build --no-deps install_data

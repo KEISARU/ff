@@ -1,0 +1,7 @@
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kdigipot_interfaces/msg/Digipot.hpp: No such file or directory
+   13 | #include [01;31m[K"digipot_interfaces/msg/Digipot.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

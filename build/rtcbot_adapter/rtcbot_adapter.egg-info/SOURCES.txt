@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/PKG-INFO
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/SOURCES.txt
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/dependency_links.txt
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/entry_points.txt
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/requires.txt
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/top_level.txt
+../../build/rtcbot_adapter/rtcbot_adapter.egg-info/zip-safe
+resource/rtcbot_adapter
+rtcbot_adapter/__init__.py
+rtcbot_adapter/rtcbot_adpter.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

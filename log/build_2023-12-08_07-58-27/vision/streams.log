@@ -1,0 +1,23 @@
+[4.205s] Invoking command in '/ros2_ws/build/vision': PYTHONPATH=/ros2_ws/build/vision/prefix_override:/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/vision/build --no-deps install_data
+[4.998s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.000s]   warnings.warn(
+[5.119s] running develop
+[5.120s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.122s]   warnings.warn(
+[5.124s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.126s]   warnings.warn(
+[5.607s] running egg_info
+[5.607s] writing vision.egg-info/PKG-INFO
+[5.608s] writing dependency_links to vision.egg-info/dependency_links.txt
+[5.608s] writing entry points to vision.egg-info/entry_points.txt
+[5.609s] writing requirements to vision.egg-info/requires.txt
+[5.609s] writing top-level names to vision.egg-info/top_level.txt
+[5.616s] reading manifest file 'vision.egg-info/SOURCES.txt'
+[5.620s] writing manifest file 'vision.egg-info/SOURCES.txt'
+[5.626s] running build_ext
+[5.627s] Creating /ros2_ws/install/vision/lib/python3.10/site-packages/vision.egg-link (link to .)
+[5.631s] Installing vision_node script to /ros2_ws/install/vision/lib/vision
+[5.632s] 
+[5.632s] Installed /ros2_ws/build/vision
+[5.633s] running install_data
+[5.758s] Invoked command in '/ros2_ws/build/vision' returned '0': PYTHONPATH=/ros2_ws/build/vision/prefix_override:/ros2_ws/install/vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/vision/build --no-deps install_data

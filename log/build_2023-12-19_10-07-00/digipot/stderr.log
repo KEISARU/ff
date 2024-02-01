@@ -1,0 +1,11 @@
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:84:35:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   84 |     last_control_ = rclcpp::Time::[01;31m[Know[m[K();
+      |                                   [01;31m[K^~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:91:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   91 |       if((rclcpp::Time[01;31m[K.[m[Know() - last_control_).nanoseconds() > 200000000.0)
+      |                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

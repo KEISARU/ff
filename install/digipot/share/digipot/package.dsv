@@ -1,0 +1,11 @@
+source;share/digipot/hook/cmake_prefix_path.ps1
+source;share/digipot/hook/cmake_prefix_path.dsv
+source;share/digipot/hook/cmake_prefix_path.sh
+source;share/digipot/hook/ld_library_path_lib.ps1
+source;share/digipot/hook/ld_library_path_lib.dsv
+source;share/digipot/hook/ld_library_path_lib.sh
+source;share/digipot/local_setup.bash
+source;share/digipot/local_setup.dsv
+source;share/digipot/local_setup.ps1
+source;share/digipot/local_setup.sh
+source;share/digipot/local_setup.zsh

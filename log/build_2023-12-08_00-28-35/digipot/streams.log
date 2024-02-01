@@ -1,0 +1,30 @@
+[0.211s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.376s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[10.032s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[10.032s]   153 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KInt16[m[K>::SharedPtr publisher_;
+[10.033s]       |                                    [01;31m[K^~~~~[m[K
+[10.033s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.033s]   153 |   rclcpp::Publisher<std_msgs::msg::Int16[01;31m[K>[m[K::SharedPtr publisher_;
+[10.034s]       |                                         [01;31m[K^[m[K
+[10.034s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.034s]   153 |   rclcpp::Publisher<std_msgs::msg::Int16>::[01;31m[KSharedPtr[m[K publisher_;
+[10.035s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[10.035s]       |                                                     [32m[K;[m[K
+[10.040s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.040s]   153 |   rclcpp::Publisher<std_msgs::msg::Int16>::SharedPtr [01;31m[Kpublisher_[m[K;
+[10.041s]       |                                                      [01;31m[K^~~~~~~~~~[m[K
+[10.041s]       |                                                      [32m[Krmw_publisher_t[m[K
+[10.114s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[10.116s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.117s]    51 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float32>("digipot_ctrl", 10);
+[10.119s]       |     [01;31m[K^~~~~~~~~~[m[K
+[10.120s]       |     [32m[Krmw_publisher_t[m[K
+[10.201s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[10.203s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.204s]    79 |       [01;31m[Kpublisher_[m[K->publish(message);
+[10.206s]       |       [01;31m[K^~~~~~~~~~[m[K
+[10.207s]       |       [32m[Krmw_publisher_t[m[K
+[19.966s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+[19.967s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[19.967s] gmake: *** [Makefile:146: all] Error 2
+[19.974s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

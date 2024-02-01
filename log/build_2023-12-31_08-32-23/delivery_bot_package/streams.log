@@ -1,0 +1,41 @@
+[0.596s] Invoking command in '/ros2_ws/build/delivery_bot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/delivery_bot_package -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/delivery_bot_package
+[2.913s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.915s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.917s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.917s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.917s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.918s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.919s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.919s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.865s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.463s] -- Configuring done
+[4.531s] -- Generating done
+[4.538s] -- Build files have been written to: /ros2_ws/build/delivery_bot_package
+[4.572s] Invoked command in '/ros2_ws/build/delivery_bot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/delivery_bot_package -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/delivery_bot_package
+[4.574s] Invoking command in '/ros2_ws/build/delivery_bot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/delivery_bot_package -- -j4 -l4
+[4.744s] [35m[1mConsolidate compiler generated dependencies of target delivery_bot[0m
+[4.884s] [100%] Built target delivery_bot
+[4.921s] Invoked command in '/ros2_ws/build/delivery_bot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/delivery_bot_package -- -j4 -l4
+[5.036s] Invoking command in '/ros2_ws/build/delivery_bot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/delivery_bot_package
+[5.063s] -- Install configuration: ""
+[5.065s] -- Execute custom install script
+[5.067s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/lib/delivery_bot_package/delivery_bot
+[5.074s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/ament_index/resource_index/package_run_dependencies/delivery_bot_package
+[5.077s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/ament_index/resource_index/parent_prefix_path/delivery_bot_package
+[5.078s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/ament_prefix_path.sh
+[5.080s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/ament_prefix_path.dsv
+[5.082s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/path.sh
+[5.083s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/path.dsv
+[5.085s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.bash
+[5.088s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.sh
+[5.090s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.zsh
+[5.091s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.dsv
+[5.093s] -- Symlinking: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/package.dsv
+[5.124s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/ament_index/resource_index/packages/delivery_bot_package
+[5.127s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/cmake/delivery_bot_packageConfig.cmake
+[5.129s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/cmake/delivery_bot_packageConfig-version.cmake
+[5.131s] -- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/package.xml
+[5.146s] Invoked command in '/ros2_ws/build/delivery_bot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/delivery_bot_package

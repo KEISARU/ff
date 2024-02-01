@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:159:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  159 |     uint8_t [01;35m[Kvalue[m[K = digipot_.get() + msg->linear.x;
+      |             [01;35m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:182:42:[m[K [01;31m[Kerror: [m[K‘[01m[KsteeringMap[m[K’ was not declared in this scope; did you mean ‘[01m[KsteeringMap_[m[K’?
+  182 |     uint16_t pwm = (uint16_t)(std::round([01;31m[KsteeringMap[m[K->calPwm(lateral_value)) & 0x0FFF;
+      |                                          [01;31m[K^~~~~~~~~~~[m[K
+      |                                          [32m[KsteeringMap_[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:182:86:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  182 |     uint16_t pwm = (uint16_t)(std::round(steeringMap->calPwm(lateral_value)) & 0x0FFF[01;31m[K;[m[K
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:182:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  182 |     uint16_t pwm = (uint16_t)[01;36m[K([m[Kstd::round(steeringMap->calPwm(lateral_value)) & 0x0FFF;
+      |                              [01;36m[K^[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:192:46:[m[K [01;31m[Kerror: [m[K‘[01m[KsteeringMap[m[K’ was not declared in this scope; did you mean ‘[01m[KsteeringMap_[m[K’?
+  192 |         uint16_t pwm = (uint16_t)(std::round([01;31m[KsteeringMap[m[K->calPwm(40))) & 0x0FFF;
+      |                                              [01;31m[K^~~~~~~~~~~[m[K
+      |                                              [32m[KsteeringMap_[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

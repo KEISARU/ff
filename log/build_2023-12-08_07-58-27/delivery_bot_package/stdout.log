@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target delivery_bot[0m
+[100%] Built target delivery_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/lib/delivery_bot_package/delivery_bot
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/ament_index/resource_index/package_run_dependencies/delivery_bot_package
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/ament_index/resource_index/parent_prefix_path/delivery_bot_package
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/local_setup.dsv
+-- Symlinking: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/ament_index/resource_index/packages/delivery_bot_package
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/cmake/delivery_bot_packageConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/cmake/delivery_bot_packageConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/delivery_bot_package/share/delivery_bot_package/package.xml

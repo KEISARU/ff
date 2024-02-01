@@ -1,0 +1,29 @@
+[0.205s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[0.393s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[9.932s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[9.933s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:9:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KDigipotNode[m[K’ does not have any field named ‘[01m[Kdigipo_[m[K’
+[9.933s]     9 |   DigipotNode(): Node("digipot"), [01;31m[Kdigipo_[m[K(21,19,23)
+[9.934s]       |                                   [01;31m[K^~~~~~~[m[K
+[9.934s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:9:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigiPot::DigiPot()[m[K’
+[9.935s]     9 |   DigipotNode(): Node("digipot"), digipo_(21,19,23[01;31m[K)[m[K
+[9.935s]       |                                                   [01;31m[K^[m[K
+[9.935s] In file included from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:4[m[K:
+[9.936s] [01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDigiPot::DigiPot(int, int, int)[m[K’
+[9.936s]    12 |     [01;36m[KDigiPot[m[K(int udPin, int incPin, int csPin);
+[9.936s]       |     [01;36m[K^~~~~~~[m[K
+[9.937s] [01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[9.937s] [01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr DigiPot::DigiPot(const DigiPot&)[m[K’
+[9.937s]    10 | class [01;36m[KDigiPot[m[K {
+[9.938s]       |       [01;36m[K^~~~~~~[m[K
+[9.938s] [01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.938s] [01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr DigiPot::DigiPot(DigiPot&&)[m[K’
+[9.939s] [01m[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[9.958s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[KudPin_[m[K’ was not declared in this scope; did you mean ‘[01m[KunPin_[m[K’?
+[9.959s]    16 |     [01;31m[KudPin_[m[K = get_parameter("udPin").as_int();
+[9.959s]       |     [01;31m[K^~~~~~[m[K
+[9.960s]       |     [32m[KunPin_[m[K
+[19.591s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+[19.592s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[19.593s] gmake: *** [Makefile:146: all] Error 2
+[19.597s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

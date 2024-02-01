@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/delivery_bot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/delivery_bot_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/delivery_bot_package
+Invoked command in '/ros2_ws/build/delivery_bot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/delivery_bot_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/delivery_bot_package
+Invoking command in '/ros2_ws/build/delivery_bot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/delivery_bot_package -- -j4 -l4
+Invoked command in '/ros2_ws/build/delivery_bot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/delivery_bot_package -- -j4 -l4
+Invoking command in '/ros2_ws/build/delivery_bot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/delivery_bot_package
+Invoked command in '/ros2_ws/build/delivery_bot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/delivery_bot_package

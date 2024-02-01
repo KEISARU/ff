@@ -1,0 +1,21 @@
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:[m[K In member function ‘[01m[Kvoid DigiPot::increase(int)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:37:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kamount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 | void DigiPot::increase([01;35m[Kint amount[m[K) {
+      |                        [01;35m[K~~~~^~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:[m[K In member function ‘[01m[Kvoid DigiPot::decrease(int)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:48:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kamount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   48 | void DigiPot::decrease([01;35m[Kint amount[m[K) {
+      |                        [01;35m[K~~~~^~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:82:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   82 |     uint8_t [01;31m[K=[m[K digipot_.get() + msg->linear.x;
+      |             [01;31m[K^[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:83:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalue[m[K’ was not declared in this scope
+   83 |     digipot_.set([01;31m[Kvalue[m[K);
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:80:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   80 |   void teleopCallback([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

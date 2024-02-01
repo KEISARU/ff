@@ -1,0 +1,8 @@
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:[m[K In member function ‘[01m[Kvoid DigiPot::increase(int)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:37:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kamount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 | void DigiPot::increase([01;35m[Kint amount[m[K) {
+      |                        [01;35m[K~~~~^~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:[m[K In member function ‘[01m[Kvoid DigiPot::decrease(int)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/DigiPot.cpp:48:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kamount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   48 | void DigiPot::decrease([01;35m[Kint amount[m[K) {
+      |                        [01;35m[K~~~~^~~~~~[m[K

@@ -1,0 +1,24 @@
+[0.568s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[2.740s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[2.741s] [100%] Built target digipot
+[2.741s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[2.853s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot
+[2.881s] -- Install configuration: ""
+[2.884s] -- Execute custom install script
+[2.889s] -- Up-to-date symlink: /ros2_ws/install/digipot/lib/digipot/digipot
+[2.892s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+[2.894s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+[2.896s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+[2.897s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+[2.898s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+[2.900s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+[2.901s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+[2.902s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+[2.903s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+[2.904s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+[2.905s] -- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+[2.938s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+[2.941s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+[2.943s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+[2.944s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/package.xml
+[2.956s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/digipot

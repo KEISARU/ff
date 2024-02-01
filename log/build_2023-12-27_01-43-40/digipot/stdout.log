@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable digipot[0m
+[100%] Built target digipot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws/install/digipot/lib/digipot/digipot
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/package.xml

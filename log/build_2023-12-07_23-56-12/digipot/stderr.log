@@ -1,0 +1,15 @@
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev_address_[m[K’ was not declared in this scope
+   40 |     [01;31m[Kdev_address_[m[K = ADS1X15_ADDRESS;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kint16_t DigipotNode::read_ADC(uint8_t)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:102:45:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K32768[m[K’ to ‘[01m[K0[m[K’ [[01;35m[K-Woverflow[m[K]
+  102 |     write_reg(ADS1X15_REG_POINTER_HITHRESH, [01;35m[K0x8000[m[K);
+      |                                             [01;35m[K^~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::write_reg(uint8_t, uint8_t)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:122:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(int)(((unsigned char)((int)data)) & 255)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;35m[K-Wnarrowing[m[K]
+  122 |         uint8_t buf[3] = {reg, data, [01;35m[Kdata & 0xFF[m[K};
+      |                                      [01;35m[K~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

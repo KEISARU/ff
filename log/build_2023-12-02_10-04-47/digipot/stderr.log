@@ -1,0 +1,16 @@
+/usr/bin/ld: CMakeFiles/digipot.dir/src/DigiPot.cpp.o: in function `DigiPot::DigiPot(int, int, int)':
+DigiPot.cpp:(.text+0x4c): undefined reference to `GPIO::setmode(GPIO::NumberingModes)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x60): undefined reference to `GPIO::setup(int, GPIO::Directions, int)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x74): undefined reference to `GPIO::setup(int, GPIO::Directions, int)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x88): undefined reference to `GPIO::setup(int, GPIO::Directions, int)'
+/usr/bin/ld: CMakeFiles/digipot.dir/src/DigiPot.cpp.o: in function `DigiPot::change(unsigned char, int)':
+DigiPot.cpp:(.text+0x320): undefined reference to `GPIO::output(int, int)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x330): undefined reference to `GPIO::output(int, int)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x340): undefined reference to `GPIO::output(int, int)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x358): undefined reference to `GPIO::output(int, int)'
+/usr/bin/ld: DigiPot.cpp:(.text+0x370): undefined reference to `GPIO::output(int, int)'
+/usr/bin/ld: CMakeFiles/digipot.dir/src/DigiPot.cpp.o:DigiPot.cpp:(.text+0x41c): more undefined references to `GPIO::output(int, int)' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:175: digipot] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

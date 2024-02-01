@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.001025] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.002849] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.003427] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.003751] (-) JobUnselected: {'identifier': 'vision'}
+[0.003924] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.004123] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict()}
+[0.004320] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.099339] (-) TimerEvent: {}
+[0.200796] (-) TimerEvent: {}
+[0.201998] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.204414] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[0.207082] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[0.286057] (digipot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300950] (-) TimerEvent: {}
+[0.401610] (-) TimerEvent: {}
+[0.502335] (-) TimerEvent: {}
+[0.602987] (-) TimerEvent: {}
+[0.703658] (-) TimerEvent: {}
+[0.777678] (digipot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.803768] (digipot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.805391] (-) TimerEvent: {}
+[0.905009] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.905587] (-) TimerEvent: {}
+[0.915790] (digipot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.941966] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.989407] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.005733] (-) TimerEvent: {}
+[1.056464] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105905] (-) TimerEvent: {}
+[1.206556] (-) TimerEvent: {}
+[1.307197] (-) TimerEvent: {}
+[1.309268] (digipot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.315366] (digipot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.407357] (-) TimerEvent: {}
+[1.508488] (-) TimerEvent: {}
+[1.609165] (-) TimerEvent: {}
+[1.689593] (digipot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.709304] (-) TimerEvent: {}
+[1.809940] (-) TimerEvent: {}
+[1.910585] (-) TimerEvent: {}
+[2.011277] (-) TimerEvent: {}
+[2.111968] (-) TimerEvent: {}
+[2.212601] (-) TimerEvent: {}
+[2.313234] (-) TimerEvent: {}
+[2.397541] (digipot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.413378] (-) TimerEvent: {}
+[2.514036] (-) TimerEvent: {}
+[2.616087] (-) TimerEvent: {}
+[2.675272] (digipot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.676051] (digipot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>\n'}
+[2.676466] (digipot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.678089] (digipot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.681755] (digipot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.682296] (digipot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.683129] (digipot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.686519] (digipot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.716232] (-) TimerEvent: {}
+[2.725210] (digipot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.731922] (digipot) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/digipot\n'}
+[2.802551] (digipot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target digipot\x1b[0m\n'}
+[2.816347] (-) TimerEvent: {}
+[2.862443] (digipot) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable digipot\x1b[0m\n'}
+[2.916538] (-) TimerEvent: {}
+[3.017251] (-) TimerEvent: {}
+[3.118032] (-) TimerEvent: {}
+[3.220379] (-) TimerEvent: {}
+[3.321122] (-) TimerEvent: {}
+[3.421868] (-) TimerEvent: {}
+[3.522670] (-) TimerEvent: {}
+[3.623400] (-) TimerEvent: {}
+[3.724107] (-) TimerEvent: {}
+[3.824753] (-) TimerEvent: {}
+[3.925420] (-) TimerEvent: {}
+[4.026112] (-) TimerEvent: {}
+[4.126767] (-) TimerEvent: {}
+[4.227458] (-) TimerEvent: {}
+[4.328192] (-) TimerEvent: {}
+[4.428808] (-) TimerEvent: {}
+[4.529421] (-) TimerEvent: {}
+[4.543401] (digipot) StdoutLine: {'line': b'[100%] Built target digipot\n'}
+[4.572029] (digipot) CommandEnded: {'returncode': 0}
+[4.629579] (-) TimerEvent: {}
+[4.636658] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'install'}
+[4.661729] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/digipot'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[4.682959] (digipot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.685134] (digipot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.686884] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/lib/digipot/digipot\n'}
+[4.709053] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot\n'}
+[4.729762] (-) TimerEvent: {}
+[4.732504] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot\n'}
+[4.755505] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh\n'}
+[4.778001] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv\n'}
+[4.800493] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/path.sh\n'}
+[4.823112] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/path.dsv\n'}
+[4.829890] (-) TimerEvent: {}
+[4.846501] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.bash\n'}
+[4.869830] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.sh\n'}
+[4.892893] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.zsh\n'}
+[4.915997] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.dsv\n'}
+[4.930060] (-) TimerEvent: {}
+[4.938830] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv\n'}
+[4.962361] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot\n'}
+[4.985535] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake\n'}
+[5.008135] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake\n'}
+[5.030221] (-) TimerEvent: {}
+[5.031278] (digipot) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/install/digipot/share/digipot/package.xml\n'}
+[5.058078] (digipot) CommandEnded: {'returncode': 0}
+[5.130370] (-) TimerEvent: {}
+[5.232223] (-) TimerEvent: {}
+[5.334030] (-) TimerEvent: {}
+[5.440557] (-) TimerEvent: {}
+[5.499422] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 0}
+[5.503715] (-) EventReactorShutdown: {}

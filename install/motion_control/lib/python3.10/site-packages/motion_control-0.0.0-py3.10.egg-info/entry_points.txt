@@ -1,0 +1,3 @@
+[console_scripts]
+speed_control_node = motion_control.speed_control_node:main
+

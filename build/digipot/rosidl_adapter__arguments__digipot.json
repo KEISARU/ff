@@ -1,0 +1,6 @@
+{
+  "package_name": "digipot",
+  "non_idl_tuples": [
+    "/ros2_ws/src/digipot:msg/Digipot.msg"
+  ]
+}

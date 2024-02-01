@@ -1,0 +1,462 @@
+[0.000000] (-) TimerEvent: {}
+[0.003211] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.003881] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.004192] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.004353] (-) JobUnselected: {'identifier': 'vision'}
+[0.004526] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.004728] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict()}
+[0.004915] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.099349] (-) TimerEvent: {}
+[0.199919] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.200195] (-) TimerEvent: {}
+[0.201292] (digipot) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/digipot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[0.300403] (-) TimerEvent: {}
+[0.380117] (digipot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400559] (-) TimerEvent: {}
+[0.501375] (-) TimerEvent: {}
+[0.589867] (digipot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601520] (-) TimerEvent: {}
+[0.611695] (digipot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701702] (-) TimerEvent: {}
+[0.802780] (-) TimerEvent: {}
+[0.829929] (digipot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.864726] (digipot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.865573] (digipot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.867182] (digipot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.878271] (digipot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902937] (-) TimerEvent: {}
+[1.003604] (-) TimerEvent: {}
+[1.104365] (-) TimerEvent: {}
+[1.125319] (digipot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.157857] (digipot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.158828] (digipot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.160499] (digipot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.170650] (digipot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.204968] (-) TimerEvent: {}
+[1.305670] (-) TimerEvent: {}
+[1.406370] (-) TimerEvent: {}
+[1.507089] (-) TimerEvent: {}
+[1.607724] (-) TimerEvent: {}
+[1.708353] (-) TimerEvent: {}
+[1.718415] (digipot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.808499] (-) TimerEvent: {}
+[1.909176] (-) TimerEvent: {}
+[1.970378] (digipot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.009345] (-) TimerEvent: {}
+[2.076810] (digipot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.109482] (-) TimerEvent: {}
+[2.210098] (-) TimerEvent: {}
+[2.236284] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.258056] (digipot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.293420] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.310227] (-) TimerEvent: {}
+[2.353276] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.410412] (-) TimerEvent: {}
+[2.443884] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.510587] (-) TimerEvent: {}
+[2.611229] (-) TimerEvent: {}
+[2.711862] (-) TimerEvent: {}
+[2.756087] (digipot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.767660] (digipot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.812003] (-) TimerEvent: {}
+[2.912628] (-) TimerEvent: {}
+[3.013312] (-) TimerEvent: {}
+[3.075202] (digipot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.113482] (-) TimerEvent: {}
+[3.140248] (digipot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.213816] (-) TimerEvent: {}
+[3.281009] (digipot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.313943] (-) TimerEvent: {}
+[3.320312] (digipot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.414119] (-) TimerEvent: {}
+[3.515141] (-) TimerEvent: {}
+[3.549610] (digipot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.551968] (digipot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.615306] (-) TimerEvent: {}
+[3.716000] (-) TimerEvent: {}
+[3.775400] (digipot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.778831] (digipot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.816158] (-) TimerEvent: {}
+[3.916815] (-) TimerEvent: {}
+[4.017472] (-) TimerEvent: {}
+[4.118127] (-) TimerEvent: {}
+[4.218827] (-) TimerEvent: {}
+[4.319472] (-) TimerEvent: {}
+[4.420105] (-) TimerEvent: {}
+[4.520773] (-) TimerEvent: {}
+[4.536062] (digipot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.620915] (-) TimerEvent: {}
+[4.721564] (-) TimerEvent: {}
+[4.822216] (-) TimerEvent: {}
+[4.857020] (digipot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.857882] (digipot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>\n'}
+[4.858363] (digipot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.862208] (digipot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.866689] (digipot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.867154] (digipot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.868750] (digipot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.874367] (digipot) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.910294] (digipot) StdoutLine: {'line': b'-- Generating done\n'}
+[4.915445] (digipot) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/digipot\n'}
+[4.922362] (-) TimerEvent: {}
+[4.942297] (digipot) CommandEnded: {'returncode': 0}
+[4.944077] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[4.946778] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[5.022582] (-) TimerEvent: {}
+[5.086276] (digipot) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o\x1b[0m\n'}
+[5.086984] (digipot) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/digipot.dir/src/DigiPot.cpp.o\x1b[0m\n'}
+[5.122745] (-) TimerEvent: {}
+[5.223791] (-) TimerEvent: {}
+[5.325215] (-) TimerEvent: {}
+[5.425921] (-) TimerEvent: {}
+[5.528468] (-) TimerEvent: {}
+[5.629172] (-) TimerEvent: {}
+[5.729847] (-) TimerEvent: {}
+[5.830550] (-) TimerEvent: {}
+[5.931249] (-) TimerEvent: {}
+[6.031918] (-) TimerEvent: {}
+[6.132620] (-) TimerEvent: {}
+[6.233293] (-) TimerEvent: {}
+[6.333992] (-) TimerEvent: {}
+[6.434739] (-) TimerEvent: {}
+[6.535423] (-) TimerEvent: {}
+[6.636137] (-) TimerEvent: {}
+[6.736838] (-) TimerEvent: {}
+[6.837539] (-) TimerEvent: {}
+[6.938219] (-) TimerEvent: {}
+[7.039026] (-) TimerEvent: {}
+[7.139696] (-) TimerEvent: {}
+[7.240382] (-) TimerEvent: {}
+[7.341050] (-) TimerEvent: {}
+[7.441710] (-) TimerEvent: {}
+[7.542389] (-) TimerEvent: {}
+[7.643118] (-) TimerEvent: {}
+[7.743764] (-) TimerEvent: {}
+[7.844402] (-) TimerEvent: {}
+[7.945063] (-) TimerEvent: {}
+[8.045729] (-) TimerEvent: {}
+[8.146395] (-) TimerEvent: {}
+[8.247123] (-) TimerEvent: {}
+[8.347790] (-) TimerEvent: {}
+[8.448444] (-) TimerEvent: {}
+[8.549125] (-) TimerEvent: {}
+[8.649777] (-) TimerEvent: {}
+[8.750541] (-) TimerEvent: {}
+[8.851253] (-) TimerEvent: {}
+[8.951923] (-) TimerEvent: {}
+[9.052588] (-) TimerEvent: {}
+[9.153257] (-) TimerEvent: {}
+[9.253959] (-) TimerEvent: {}
+[9.354620] (-) TimerEvent: {}
+[9.455361] (-) TimerEvent: {}
+[9.556029] (-) TimerEvent: {}
+[9.656703] (-) TimerEvent: {}
+[9.757385] (-) TimerEvent: {}
+[9.858034] (-) TimerEvent: {}
+[9.958784] (-) TimerEvent: {}
+[10.059948] (-) TimerEvent: {}
+[10.160640] (-) TimerEvent: {}
+[10.261304] (-) TimerEvent: {}
+[10.361972] (-) TimerEvent: {}
+[10.462737] (-) TimerEvent: {}
+[10.563429] (-) TimerEvent: {}
+[10.664111] (-) TimerEvent: {}
+[10.764795] (-) TimerEvent: {}
+[10.865472] (-) TimerEvent: {}
+[10.966142] (-) TimerEvent: {}
+[11.066871] (-) TimerEvent: {}
+[11.167535] (-) TimerEvent: {}
+[11.268203] (-) TimerEvent: {}
+[11.368861] (-) TimerEvent: {}
+[11.469532] (-) TimerEvent: {}
+[11.570199] (-) TimerEvent: {}
+[11.670933] (-) TimerEvent: {}
+[11.771599] (-) TimerEvent: {}
+[11.872262] (-) TimerEvent: {}
+[11.972981] (-) TimerEvent: {}
+[12.073660] (-) TimerEvent: {}
+[12.174334] (-) TimerEvent: {}
+[12.275088] (-) TimerEvent: {}
+[12.376650] (-) TimerEvent: {}
+[12.478614] (-) TimerEvent: {}
+[12.579325] (-) TimerEvent: {}
+[12.680006] (-) TimerEvent: {}
+[12.780687] (-) TimerEvent: {}
+[12.881349] (-) TimerEvent: {}
+[12.982201] (-) TimerEvent: {}
+[13.082939] (-) TimerEvent: {}
+[13.183626] (-) TimerEvent: {}
+[13.284298] (-) TimerEvent: {}
+[13.384981] (-) TimerEvent: {}
+[13.485660] (-) TimerEvent: {}
+[13.586341] (-) TimerEvent: {}
+[13.687102] (-) TimerEvent: {}
+[13.787776] (-) TimerEvent: {}
+[13.888439] (-) TimerEvent: {}
+[13.989124] (-) TimerEvent: {}
+[14.089800] (-) TimerEvent: {}
+[14.190528] (-) TimerEvent: {}
+[14.291193] (-) TimerEvent: {}
+[14.391855] (-) TimerEvent: {}
+[14.492527] (-) TimerEvent: {}
+[14.593216] (-) TimerEvent: {}
+[14.693941] (-) TimerEvent: {}
+[14.794673] (-) TimerEvent: {}
+[14.895337] (-) TimerEvent: {}
+[14.996023] (-) TimerEvent: {}
+[15.096696] (-) TimerEvent: {}
+[15.197377] (-) TimerEvent: {}
+[15.298044] (-) TimerEvent: {}
+[15.398808] (-) TimerEvent: {}
+[15.499474] (-) TimerEvent: {}
+[15.600187] (-) TimerEvent: {}
+[15.700869] (-) TimerEvent: {}
+[15.801544] (-) TimerEvent: {}
+[15.902211] (-) TimerEvent: {}
+[16.002955] (-) TimerEvent: {}
+[16.103638] (-) TimerEvent: {}
+[16.204304] (-) TimerEvent: {}
+[16.304977] (-) TimerEvent: {}
+[16.405661] (-) TimerEvent: {}
+[16.506331] (-) TimerEvent: {}
+[16.607066] (-) TimerEvent: {}
+[16.707735] (-) TimerEvent: {}
+[16.808396] (-) TimerEvent: {}
+[16.909078] (-) TimerEvent: {}
+[17.009747] (-) TimerEvent: {}
+[17.110484] (-) TimerEvent: {}
+[17.211184] (-) TimerEvent: {}
+[17.311846] (-) TimerEvent: {}
+[17.412510] (-) TimerEvent: {}
+[17.513168] (-) TimerEvent: {}
+[17.613832] (-) TimerEvent: {}
+[17.714550] (-) TimerEvent: {}
+[17.815230] (-) TimerEvent: {}
+[17.915894] (-) TimerEvent: {}
+[18.016573] (-) TimerEvent: {}
+[18.117247] (-) TimerEvent: {}
+[18.217929] (-) TimerEvent: {}
+[18.318704] (-) TimerEvent: {}
+[18.419389] (-) TimerEvent: {}
+[18.520069] (-) TimerEvent: {}
+[18.620777] (-) TimerEvent: {}
+[18.721497] (-) TimerEvent: {}
+[18.822180] (-) TimerEvent: {}
+[18.922913] (-) TimerEvent: {}
+[19.023568] (-) TimerEvent: {}
+[19.124699] (-) TimerEvent: {}
+[19.225382] (-) TimerEvent: {}
+[19.326063] (-) TimerEvent: {}
+[19.426764] (-) TimerEvent: {}
+[19.527434] (-) TimerEvent: {}
+[19.628119] (-) TimerEvent: {}
+[19.728827] (-) TimerEvent: {}
+[19.829540] (-) TimerEvent: {}
+[19.930234] (-) TimerEvent: {}
+[20.030974] (-) TimerEvent: {}
+[20.131652] (-) TimerEvent: {}
+[20.232319] (-) TimerEvent: {}
+[20.332992] (-) TimerEvent: {}
+[20.433654] (-) TimerEvent: {}
+[20.534335] (-) TimerEvent: {}
+[20.635074] (-) TimerEvent: {}
+[20.735776] (-) TimerEvent: {}
+[20.836483] (-) TimerEvent: {}
+[20.937153] (-) TimerEvent: {}
+[21.037829] (-) TimerEvent: {}
+[21.138556] (-) TimerEvent: {}
+[21.239223] (-) TimerEvent: {}
+[21.339899] (-) TimerEvent: {}
+[21.440591] (-) TimerEvent: {}
+[21.541278] (-) TimerEvent: {}
+[21.641959] (-) TimerEvent: {}
+[21.742679] (-) TimerEvent: {}
+[21.843349] (-) TimerEvent: {}
+[21.944030] (-) TimerEvent: {}
+[22.044691] (-) TimerEvent: {}
+[22.145356] (-) TimerEvent: {}
+[22.246033] (-) TimerEvent: {}
+[22.346762] (-) TimerEvent: {}
+[22.447438] (-) TimerEvent: {}
+[22.548104] (-) TimerEvent: {}
+[22.648779] (-) TimerEvent: {}
+[22.749445] (-) TimerEvent: {}
+[22.850095] (-) TimerEvent: {}
+[22.950787] (-) TimerEvent: {}
+[23.051462] (-) TimerEvent: {}
+[23.152139] (-) TimerEvent: {}
+[23.252790] (-) TimerEvent: {}
+[23.353458] (-) TimerEvent: {}
+[23.454151] (-) TimerEvent: {}
+[23.554909] (-) TimerEvent: {}
+[23.655584] (-) TimerEvent: {}
+[23.756262] (-) TimerEvent: {}
+[23.856933] (-) TimerEvent: {}
+[23.957604] (-) TimerEvent: {}
+[24.058282] (-) TimerEvent: {}
+[24.159028] (-) TimerEvent: {}
+[24.259728] (-) TimerEvent: {}
+[24.360410] (-) TimerEvent: {}
+[24.461088] (-) TimerEvent: {}
+[24.561779] (-) TimerEvent: {}
+[24.662507] (-) TimerEvent: {}
+[24.763175] (-) TimerEvent: {}
+[24.863865] (-) TimerEvent: {}
+[24.964551] (-) TimerEvent: {}
+[25.065231] (-) TimerEvent: {}
+[25.165913] (-) TimerEvent: {}
+[25.266655] (-) TimerEvent: {}
+[25.367324] (-) TimerEvent: {}
+[25.467982] (-) TimerEvent: {}
+[25.568643] (-) TimerEvent: {}
+[25.669308] (-) TimerEvent: {}
+[25.770011] (-) TimerEvent: {}
+[25.870744] (-) TimerEvent: {}
+[25.971399] (-) TimerEvent: {}
+[26.072058] (-) TimerEvent: {}
+[26.172728] (-) TimerEvent: {}
+[26.273386] (-) TimerEvent: {}
+[26.374045] (-) TimerEvent: {}
+[26.474761] (-) TimerEvent: {}
+[26.575428] (-) TimerEvent: {}
+[26.676172] (-) TimerEvent: {}
+[26.776844] (-) TimerEvent: {}
+[26.877541] (-) TimerEvent: {}
+[26.978209] (-) TimerEvent: {}
+[27.078917] (-) TimerEvent: {}
+[27.179573] (-) TimerEvent: {}
+[27.280246] (-) TimerEvent: {}
+[27.380992] (-) TimerEvent: {}
+[27.481672] (-) TimerEvent: {}
+[27.582332] (-) TimerEvent: {}
+[27.683079] (-) TimerEvent: {}
+[27.783734] (-) TimerEvent: {}
+[27.884412] (-) TimerEvent: {}
+[27.985087] (-) TimerEvent: {}
+[28.085767] (-) TimerEvent: {}
+[28.186508] (-) TimerEvent: {}
+[28.287186] (-) TimerEvent: {}
+[28.387843] (-) TimerEvent: {}
+[28.488506] (-) TimerEvent: {}
+[28.589171] (-) TimerEvent: {}
+[28.689858] (-) TimerEvent: {}
+[28.790575] (-) TimerEvent: {}
+[28.891233] (-) TimerEvent: {}
+[28.991882] (-) TimerEvent: {}
+[29.092535] (-) TimerEvent: {}
+[29.193199] (-) TimerEvent: {}
+[29.293854] (-) TimerEvent: {}
+[29.394561] (-) TimerEvent: {}
+[29.495224] (-) TimerEvent: {}
+[29.595884] (-) TimerEvent: {}
+[29.696542] (-) TimerEvent: {}
+[29.797258] (-) TimerEvent: {}
+[29.897926] (-) TimerEvent: {}
+[29.998594] (-) TimerEvent: {}
+[30.099259] (-) TimerEvent: {}
+[30.199883] (-) TimerEvent: {}
+[30.300532] (-) TimerEvent: {}
+[30.401172] (-) TimerEvent: {}
+[30.501819] (-) TimerEvent: {}
+[30.602549] (-) TimerEvent: {}
+[30.703211] (-) TimerEvent: {}
+[30.803868] (-) TimerEvent: {}
+[30.904533] (-) TimerEvent: {}
+[31.005206] (-) TimerEvent: {}
+[31.105859] (-) TimerEvent: {}
+[31.206566] (-) TimerEvent: {}
+[31.307220] (-) TimerEvent: {}
+[31.407883] (-) TimerEvent: {}
+[31.508552] (-) TimerEvent: {}
+[31.609220] (-) TimerEvent: {}
+[31.709889] (-) TimerEvent: {}
+[31.810583] (-) TimerEvent: {}
+[31.911237] (-) TimerEvent: {}
+[32.011894] (-) TimerEvent: {}
+[32.112543] (-) TimerEvent: {}
+[32.213211] (-) TimerEvent: {}
+[32.313877] (-) TimerEvent: {}
+[32.414587] (-) TimerEvent: {}
+[32.515246] (-) TimerEvent: {}
+[32.615904] (-) TimerEvent: {}
+[32.716571] (-) TimerEvent: {}
+[32.817228] (-) TimerEvent: {}
+[32.917885] (-) TimerEvent: {}
+[33.018556] (-) TimerEvent: {}
+[33.119212] (-) TimerEvent: {}
+[33.219869] (-) TimerEvent: {}
+[33.320540] (-) TimerEvent: {}
+[33.421213] (-) TimerEvent: {}
+[33.521878] (-) TimerEvent: {}
+[33.622584] (-) TimerEvent: {}
+[33.723237] (-) TimerEvent: {}
+[33.823900] (-) TimerEvent: {}
+[33.924562] (-) TimerEvent: {}
+[34.025241] (-) TimerEvent: {}
+[34.125931] (-) TimerEvent: {}
+[34.227182] (-) TimerEvent: {}
+[34.327825] (-) TimerEvent: {}
+[34.428466] (-) TimerEvent: {}
+[34.529121] (-) TimerEvent: {}
+[34.629790] (-) TimerEvent: {}
+[34.730492] (-) TimerEvent: {}
+[34.831146] (-) TimerEvent: {}
+[34.931804] (-) TimerEvent: {}
+[35.032460] (-) TimerEvent: {}
+[35.133109] (-) TimerEvent: {}
+[35.233763] (-) TimerEvent: {}
+[35.334479] (-) TimerEvent: {}
+[35.435134] (-) TimerEvent: {}
+[35.535794] (-) TimerEvent: {}
+[35.636459] (-) TimerEvent: {}
+[35.737137] (-) TimerEvent: {}
+[35.837808] (-) TimerEvent: {}
+[35.938501] (-) TimerEvent: {}
+[36.039163] (-) TimerEvent: {}
+[36.139851] (-) TimerEvent: {}
+[36.240647] (-) TimerEvent: {}
+[36.341354] (-) TimerEvent: {}
+[36.442033] (-) TimerEvent: {}
+[36.542776] (-) TimerEvent: {}
+[36.643461] (-) TimerEvent: {}
+[36.744169] (-) TimerEvent: {}
+[36.844845] (-) TimerEvent: {}
+[36.848919] (digipot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable digipot\x1b[0m\n'}
+[36.945050] (-) TimerEvent: {}
+[37.045788] (-) TimerEvent: {}
+[37.146557] (-) TimerEvent: {}
+[37.247353] (-) TimerEvent: {}
+[37.348080] (-) TimerEvent: {}
+[37.448837] (-) TimerEvent: {}
+[37.549556] (-) TimerEvent: {}
+[37.650202] (-) TimerEvent: {}
+[37.750910] (-) TimerEvent: {}
+[37.851553] (-) TimerEvent: {}
+[37.952207] (-) TimerEvent: {}
+[38.052857] (-) TimerEvent: {}
+[38.153530] (-) TimerEvent: {}
+[38.254229] (-) TimerEvent: {}
+[38.354973] (-) TimerEvent: {}
+[38.455577] (-) TimerEvent: {}
+[38.473809] (digipot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/digipot.dir/src/DigiPot.cpp.o: in function `DigiPot::DigiPot(int, int, int)':\n"}
+[38.474885] (digipot) StderrLine: {'line': b"DigiPot.cpp:(.text+0x4c): undefined reference to `GPIO::setmode(GPIO::NumberingModes)'\n"}
+[38.475253] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x60): undefined reference to `GPIO::setup(int, GPIO::Directions, int)'\n"}
+[38.475579] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x74): undefined reference to `GPIO::setup(int, GPIO::Directions, int)'\n"}
+[38.475892] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x88): undefined reference to `GPIO::setup(int, GPIO::Directions, int)'\n"}
+[38.476231] (digipot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/digipot.dir/src/DigiPot.cpp.o: in function `DigiPot::change(unsigned char, int)':\n"}
+[38.476628] (digipot) StderrLine: {'line': b"DigiPot.cpp:(.text+0x320): undefined reference to `GPIO::output(int, int)'\n"}
+[38.477072] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x330): undefined reference to `GPIO::output(int, int)'\n"}
+[38.477488] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x340): undefined reference to `GPIO::output(int, int)'\n"}
+[38.477916] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x358): undefined reference to `GPIO::output(int, int)'\n"}
+[38.478333] (digipot) StderrLine: {'line': b"/usr/bin/ld: DigiPot.cpp:(.text+0x370): undefined reference to `GPIO::output(int, int)'\n"}
+[38.478821] (digipot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/digipot.dir/src/DigiPot.cpp.o:DigiPot.cpp:(.text+0x41c): more undefined references to `GPIO::output(int, int)' follow\n"}
+[38.544072] (digipot) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[38.547720] (digipot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/digipot.dir/build.make:175: digipot] Error 1\n'}
+[38.548380] (digipot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2\n'}
+[38.548870] (digipot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.553626] (digipot) CommandEnded: {'returncode': 2}
+[38.555727] (-) TimerEvent: {}
+[38.657561] (-) TimerEvent: {}
+[38.764674] (-) TimerEvent: {}
+[38.780213] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 2}
+[38.791709] (-) EventReactorShutdown: {}

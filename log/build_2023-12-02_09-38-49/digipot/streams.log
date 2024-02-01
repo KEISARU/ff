@@ -1,0 +1,38 @@
+[0.676s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/digipot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot
+[3.028s] -- The C compiler identification is GNU 11.4.0
+[3.030s] -- The CXX compiler identification is GNU 11.4.0
+[3.032s] -- Detecting C compiler ABI info
+[3.035s] -- Detecting C compiler ABI info - done
+[3.038s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.042s] -- Detecting C compile features
+[3.044s] -- Detecting C compile features - done
+[3.045s] -- Detecting CXX compiler ABI info
+[3.046s] -- Detecting CXX compiler ABI info - done
+[3.047s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.048s] -- Detecting CXX compile features
+[3.048s] -- Detecting CXX compile features - done
+[3.049s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.050s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.050s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.051s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.199s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.201s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>
+[3.202s] -- Configured cppcheck exclude dirs and/or files: 
+[3.209s] -- Added test 'lint_cmake' to check CMake code style
+[3.215s] -- Added test 'uncrustify' to check C / C++ code style
+[3.217s] -- Configured uncrustify additional arguments: 
+[3.220s] -- Added test 'xmllint' to check XML markup files
+[3.237s] -- Configuring done
+[3.263s] -- Generating done
+[3.282s] -- Build files have been written to: /ros2_ws/build/digipot
+[3.302s] Invoked command in '/ros2_ws/build/digipot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/digipot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot
+[3.306s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[3.490s] [ 50%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/node.cpp.o[0m
+[3.527s] [01m[K/ros2_ws/src/digipot/src/node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[3.529s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[3.538s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.541s] compilation terminated.
+[3.546s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/node.cpp.o] Error 1
+[3.548s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[3.550s] gmake: *** [Makefile:146: all] Error 2
+[3.681s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

@@ -1,0 +1,57 @@
+[0.230s] Invoking command in '/ros2_ws/build/digipot': AMENT_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/digipot -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot
+[0.300s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.860s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.899s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.016s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.028s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.055s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.458s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.464s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.675s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.897s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.289s] -- Found digipot_interfaces: 0.0.0 (/ros2_ws/install/digipot_interfaces/share/digipot_interfaces/cmake)
+[3.371s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.667s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.667s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>
+[3.668s] -- Configured cppcheck exclude dirs and/or files: 
+[3.670s] -- Added test 'lint_cmake' to check CMake code style
+[3.673s] -- Added test 'uncrustify' to check C / C++ code style
+[3.674s] -- Configured uncrustify additional arguments: 
+[3.675s] -- Added test 'xmllint' to check XML markup files
+[3.683s] -- Configuring done
+[3.760s] -- Generating done
+[3.766s] -- Build files have been written to: /ros2_ws/build/digipot
+[3.792s] Invoked command in '/ros2_ws/build/digipot' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/digipot -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/digipot
+[3.796s] Invoking command in '/ros2_ws/build/digipot': AMENT_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[3.925s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[3.991s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[15.802s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::teleopCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[15.803s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:159:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[15.803s]   159 |     uint8_t [01;35m[Kvalue[m[K = digipot_.get() + msg->linear.x;
+[15.804s]       |             [01;35m[K^~~~~[m[K
+[63.735s] [ 66%] [32m[1mLinking CXX executable digipot[0m
+[67.725s] [100%] Built target digipot
+[67.761s] Invoked command in '/ros2_ws/build/digipot' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[67.837s] Invoking command in '/ros2_ws/build/digipot': AMENT_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/digipot
+[67.862s] -- Install configuration: ""
+[67.865s] -- Execute custom install script
+[67.866s] -- Up-to-date symlink: /ros2_ws/install/digipot/lib/digipot/digipot
+[67.869s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+[67.871s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+[67.873s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+[67.874s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+[67.875s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+[67.876s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+[67.877s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+[67.878s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+[67.878s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+[67.880s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+[67.880s] -- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+[67.909s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+[67.910s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+[67.911s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+[67.912s] -- Up-to-date symlink: /ros2_ws/install/digipot/share/digipot/package.xml
+[67.918s] Invoked command in '/ros2_ws/build/digipot' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/digipot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/digipot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ros2_ws/install/digipot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/digipot

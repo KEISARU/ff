@@ -1,0 +1,21 @@
+[5.086s] Invoking command in '/ros2_ws/build/rtcbot_adapter': PYTHONPATH=/ros2_ws/build/rtcbot_adapter/prefix_override:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/rtcbot_adapter/build --no-deps install_data
+[6.083s] running develop
+[6.089s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.090s]   warnings.warn(
+[6.095s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.095s]   warnings.warn(
+[6.564s] running egg_info
+[6.565s] writing rtcbot_adapter.egg-info/PKG-INFO
+[6.565s] writing dependency_links to rtcbot_adapter.egg-info/dependency_links.txt
+[6.566s] writing entry points to rtcbot_adapter.egg-info/entry_points.txt
+[6.567s] writing requirements to rtcbot_adapter.egg-info/requires.txt
+[6.567s] writing top-level names to rtcbot_adapter.egg-info/top_level.txt
+[6.577s] reading manifest file 'rtcbot_adapter.egg-info/SOURCES.txt'
+[6.582s] writing manifest file 'rtcbot_adapter.egg-info/SOURCES.txt'
+[6.588s] running build_ext
+[6.590s] Creating /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot-adapter.egg-link (link to .)
+[6.596s] Installing rtcbot_adpter script to /ros2_ws/install/rtcbot_adapter/lib/rtcbot_adapter
+[6.596s] 
+[6.596s] Installed /ros2_ws/build/rtcbot_adapter
+[6.597s] running install_data
+[7.376s] Invoked command in '/ros2_ws/build/rtcbot_adapter' returned '0': PYTHONPATH=/ros2_ws/build/rtcbot_adapter/prefix_override:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/rtcbot_adapter/build --no-deps install_data

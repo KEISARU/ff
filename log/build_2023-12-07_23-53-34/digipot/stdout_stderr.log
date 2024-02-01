@@ -1,0 +1,99 @@
+[35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:36:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  153 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KInt16[m[K>::SharedPtr publisher_;
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |   rclcpp::Publisher<std_msgs::msg::Int16[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                         [01;31m[K^[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  153 |   rclcpp::Publisher<std_msgs::msg::Int16>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:153:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  153 |   rclcpp::Publisher<std_msgs::msg::Int16>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+      |                                                      [32m[Krmw_publisher_t[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In constructor ‘[01m[KDigipotNode::DigipotNode()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev_address_[m[K’ was not declared in this scope
+   39 |     [01;31m[Kdev_address_[m[K = ADS1X15_ADDRESS;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:39:20:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_ADDRESS[m[K’ was not declared in this scope
+   39 |     dev_address_ = [01;31m[KADS1X15_ADDRESS[m[K;
+      |                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   51 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int16>("digipot_ctrl", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:51:56:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   51 |     publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KInt16[m[K>("digipot_ctrl", 10);
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:51:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDigipotNode::create_publisher<<expression error> >(const char [13], int)[m[K’
+   51 |     publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Int16>("digipot_ctrl", 10)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ros2_ws/src/digipot/src/digipot.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:51:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |     publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Int16>("digipot_ctrl", 10)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::timer_callback()[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:77:37:[m[K [01;31m[Kerror: [m[K‘[01m[KInt16[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   77 |       auto message = std_msgs::msg::[01;31m[KInt16[m[K();
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   79 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kint16_t DigipotNode::read_ADC(uint8_t)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:89:7:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_CONFIG_CQUE_1CONV[m[K’ was not declared in this scope
+   89 |       [01;31m[KADS1X15_REG_CONFIG_CQUE_1CONV[m[K |   // Set CQUE to any value other than
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:91:7:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_CONFIG_CLAT_NONLAT[m[K’ was not declared in this scope
+   91 |       [01;31m[KADS1X15_REG_CONFIG_CLAT_NONLAT[m[K |  // Non-latching (default val)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:92:7:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_CONFIG_CPOL_ACTVLOW[m[K’ was not declared in this scope
+   92 |       [01;31m[KADS1X15_REG_CONFIG_CPOL_ACTVLOW[m[K | // Alert/Rdy active low   (default val)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:93:7:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_CONFIG_CMODE_TRAD[m[K’ was not declared in this scope
+   93 |       [01;31m[KADS1X15_REG_CONFIG_CMODE_TRAD[m[K |    // Traditional comparator (default val)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:94:7:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_CONFIG_MODE_SINGLE[m[K’ was not declared in this scope
+   94 |       [01;31m[KADS1X15_REG_CONFIG_MODE_SINGLE[m[K |    // Sigle read mode
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:95:7:[m[K [01;31m[Kerror: [m[K‘[01m[KGAIN_TWOTHIRDS[m[K’ was not declared in this scope
+   95 |       [01;31m[KGAIN_TWOTHIRDS[m[K |
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:96:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRATE_ADS1115_128SPS[m[K’ was not declared in this scope
+   96 |       [01;31m[KRATE_ADS1115_128SPS[m[K |
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:97:7:[m[K [01;31m[Kerror: [m[K‘[01m[KMUX_BY_CHANNEL[m[K’ was not declared in this scope
+   97 |       [01;31m[KMUX_BY_CHANNEL[m[K[channel] |
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:98:7:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_CONFIG_OS_SINGLE[m[K’ was not declared in this scope
+   98 |       [01;31m[KADS1X15_REG_CONFIG_OS_SINGLE[m[K;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:100:15:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_POINTER_CONFIG[m[K’ was not declared in this scope
+  100 |     write_reg([01;31m[KADS1X15_REG_POINTER_CONFIG[m[K, config);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:101:15:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_POINTER_HITHRESH[m[K’ was not declared in this scope
+  101 |     write_reg([01;31m[KADS1X15_REG_POINTER_HITHRESH[m[K, 0x8000);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:102:15:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_POINTER_LOWTHRESH[m[K’ was not declared in this scope
+  102 |     write_reg([01;31m[KADS1X15_REG_POINTER_LOWTHRESH[m[K, 0x0000);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:109:22:[m[K [01;31m[Kerror: [m[K‘[01m[KADS1X15_REG_POINTER_CONVERT[m[K’ was not declared in this scope
+  109 |     return (int16_t)([01;31m[KADS1X15_REG_POINTER_CONVERT[m[K);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:[m[K In member function ‘[01m[Kvoid DigipotNode::write_reg(uint8_t, uint8_t)[m[K’:
+[01m[K/ros2_ws/src/digipot/src/digipot.cpp:121:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(int)(((unsigned char)((int)data)) & 255)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} [[01;35m[K-Wnarrowing[m[K]
+  121 |         uint8_t buf[3] = {reg, data, [01;35m[Kdata & 0xFF[m[K};
+      |                                      [01;35m[K~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

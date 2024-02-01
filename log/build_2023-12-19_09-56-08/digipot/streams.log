@@ -1,0 +1,11 @@
+[0.715s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[1.249s] [35m[1mConsolidate compiler generated dependencies of target digipot[0m
+[1.478s] [ 33%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[4.111s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktime.hpp: No such file or directory
+[4.112s]     8 | #include [01;31m[K<time.hpp>[m[K
+[4.112s]       |          [01;31m[K^~~~~~~~~~[m[K
+[4.112s] compilation terminated.
+[4.135s] gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1
+[4.139s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2
+[4.139s] gmake: *** [Makefile:146: all] Error 2
+[4.140s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

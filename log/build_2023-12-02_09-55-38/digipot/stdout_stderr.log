@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable digipot[0m
+[100%] Built target digipot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /ros2_ws/install/digipot/lib/digipot/digipot
+-- Symlinking: /ros2_ws/install/digipot/share/ament_index/resource_index/package_run_dependencies/digipot
+-- Symlinking: /ros2_ws/install/digipot/share/ament_index/resource_index/parent_prefix_path/digipot
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.sh
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/ament_prefix_path.dsv
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/path.sh
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/environment/path.dsv
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.bash
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.sh
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.zsh
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/local_setup.dsv
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/package.dsv
+-- Symlinking: /ros2_ws/install/digipot/share/ament_index/resource_index/packages/digipot
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig.cmake
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/cmake/digipotConfig-version.cmake
+-- Symlinking: /ros2_ws/install/digipot/share/digipot/package.xml

@@ -1,0 +1,44 @@
+[4.312s] Invoking command in '/ros2_ws/build/motion_control': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/motion_control/build
+[5.215s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.219s]   warnings.warn(
+[5.346s] running develop
+[5.347s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.348s]   warnings.warn(
+[5.353s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.354s]   warnings.warn(
+[5.798s] Removing /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion-control.egg-link (link to .)
+[5.967s] Invoked command in '/ros2_ws/build/motion_control' returned '0': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /ros2_ws/build/motion_control/build
+[5.969s] Invoking command in '/ros2_ws/src/motion_control': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motion_control build --build-base /ros2_ws/build/motion_control/build install --record /ros2_ws/build/motion_control/install.log --install-scripts $base/lib/motion_control --single-version-externally-managed
+[6.977s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.978s]   warnings.warn(
+[7.016s] running egg_info
+[7.020s] writing ../../build/motion_control/motion_control.egg-info/PKG-INFO
+[7.021s] writing dependency_links to ../../build/motion_control/motion_control.egg-info/dependency_links.txt
+[7.021s] writing entry points to ../../build/motion_control/motion_control.egg-info/entry_points.txt
+[7.022s] writing requirements to ../../build/motion_control/motion_control.egg-info/requires.txt
+[7.023s] writing top-level names to ../../build/motion_control/motion_control.egg-info/top_level.txt
+[7.031s] reading manifest file '../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[7.036s] writing manifest file '../../build/motion_control/motion_control.egg-info/SOURCES.txt'
+[7.037s] running build
+[7.038s] running build_py
+[7.038s] creating /ros2_ws/build/motion_control/build
+[7.039s] creating /ros2_ws/build/motion_control/build/lib
+[7.040s] creating /ros2_ws/build/motion_control/build/lib/motion_control
+[7.040s] copying motion_control/__init__.py -> /ros2_ws/build/motion_control/build/lib/motion_control
+[7.041s] copying motion_control/speed_control_node.py -> /ros2_ws/build/motion_control/build/lib/motion_control
+[7.041s] running install
+[7.042s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.042s]   warnings.warn(
+[7.043s] running install_lib
+[7.045s] creating /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion_control
+[7.046s] copying /ros2_ws/build/motion_control/build/lib/motion_control/__init__.py -> /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion_control
+[7.046s] copying /ros2_ws/build/motion_control/build/lib/motion_control/speed_control_node.py -> /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion_control
+[7.048s] byte-compiling /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion_control/__init__.py to __init__.cpython-310.pyc
+[7.049s] byte-compiling /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion_control/speed_control_node.py to speed_control_node.cpython-310.pyc
+[7.052s] running install_data
+[7.058s] running install_egg_info
+[7.071s] Copying ../../build/motion_control/motion_control.egg-info to /ros2_ws/install/motion_control/lib/python3.10/site-packages/motion_control-0.0.0-py3.10.egg-info
+[7.079s] running install_scripts
+[7.231s] Installing speed_control_node script to /ros2_ws/install/motion_control/lib/motion_control
+[7.231s] writing list of installed files to '/ros2_ws/build/motion_control/install.log'
+[7.707s] Invoked command in '/ros2_ws/src/motion_control' returned '0': PYTHONPATH=/ros2_ws/build/motion_control/prefix_override:/ros2_ws/install/motion_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motion_control build --build-base /ros2_ws/build/motion_control/build install --record /ros2_ws/build/motion_control/install.log --install-scripts $base/lib/motion_control --single-version-externally-managed

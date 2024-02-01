@@ -1,0 +1,3 @@
+[console_scripts]
+rtcbot_adpter = rtcbot_adapter.rtcbot_adpter:run
+

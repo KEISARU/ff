@@ -24,9 +24,9 @@ using std::placeholders::_1;
 
 #define STEER_PWM_CHANNEL   1
 
-int servoMax = 70;
-int servoMin = 32;
-int servoMid = 50;
+int servoMax = 65;
+int servoMin = 15;
+int servoMid = 40;
 
 int speedForward = 20; //0 max speed forwards
 int speedBackward = 70; //99 max speed backwards

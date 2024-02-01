@@ -1,0 +1,44 @@
+[0.219s] Invoking command in '/ros2_ws/build/digipot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_generator_c[0m
+[0.394s] [35m[1mConsolidate compiler generated dependencies of target digipot_node[0m
+[0.410s] [  2%] Built target digipot__cpp
+[0.419s] [ 11%] Built target digipot__rosidl_generator_c
+[0.448s] [ 11%] Built target ament_cmake_python_symlink_digipot
+[0.455s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_fastrtps_cpp[0m
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_cpp[0m
+[0.469s] [ 14%] [32mBuilding CXX object CMakeFiles/digipot_node.dir/src/digipot.cpp.o[0m
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_introspection_c[0m
+[0.511s] [ 23%] Built target digipot__rosidl_typesupport_cpp
+[0.527s] [ 41%] Built target digipot__rosidl_typesupport_introspection_c
+[0.528s] [ 41%] Built target digipot__rosidl_typesupport_fastrtps_cpp
+[0.550s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_c[0m
+[0.560s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_introspection_cpp[0m
+[0.591s] [ 50%] Built target digipot__rosidl_typesupport_c
+[0.607s] [ 58%] Built target digipot__rosidl_typesupport_introspection_cpp
+[0.632s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_fastrtps_c[0m
+[0.675s] [ 67%] Built target digipot__rosidl_typesupport_fastrtps_c
+[0.758s] [ 67%] Built target digipot
+[0.833s] [ 70%] Built target digipot__py
+[0.868s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_generator_py[0m
+[0.914s] [ 76%] Built target digipot__rosidl_generator_py
+[0.959s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_introspection_c__pyext[0m
+[0.981s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.018s] [ 82%] Built target digipot__rosidl_typesupport_introspection_c__pyext
+[1.055s] [ 88%] Built target digipot__rosidl_typesupport_fastrtps_c__pyext
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target digipot__rosidl_typesupport_c__pyext[0m
+[1.120s] [ 94%] Built target digipot__rosidl_typesupport_c__pyext
+[1.600s] running egg_info
+[1.610s] writing digipot.egg-info/PKG-INFO
+[1.610s] writing dependency_links to digipot.egg-info/dependency_links.txt
+[1.611s] writing top-level names to digipot.egg-info/top_level.txt
+[1.634s] reading manifest file 'digipot.egg-info/SOURCES.txt'
+[1.638s] writing manifest file 'digipot.egg-info/SOURCES.txt'
+[1.778s] [ 94%] Built target ament_cmake_python_build_digipot_egg
+[1.887s] [01m[K/ros2_ws/src/digipot/src/digipot.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kdigipot/msg/Digipot.hpp: No such file or directory
+[1.887s]    13 | #include [01;31m[K"digipot/msg/Digipot.hpp"[m[K
+[1.888s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.888s] compilation terminated.
+[1.897s] gmake[2]: *** [CMakeFiles/digipot_node.dir/build.make:76: CMakeFiles/digipot_node.dir/src/digipot.cpp.o] Error 1
+[1.898s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/digipot_node.dir/all] Error 2
+[1.898s] gmake: *** [Makefile:146: all] Error 2
+[1.908s] Invoked command in '/ros2_ws/build/digipot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/digipot -- -j4 -l4

@@ -1,0 +1,8 @@
+setup.py
+digipot/__init__.py
+digipot.egg-info/PKG-INFO
+digipot.egg-info/SOURCES.txt
+digipot.egg-info/dependency_links.txt
+digipot.egg-info/top_level.txt
+digipot/msg/__init__.py
+digipot/msg/_digipot.py

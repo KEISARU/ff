@@ -1,0 +1,31 @@
+running develop
+Removing /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot-adapter.egg-link (link to .)
+running egg_info
+writing ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/PKG-INFO
+writing dependency_links to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/dependency_links.txt
+writing entry points to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/entry_points.txt
+writing requirements to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/requires.txt
+writing top-level names to ../../build/rtcbot_adapter/rtcbot_adapter.egg-info/top_level.txt
+reading manifest file '../../build/rtcbot_adapter/rtcbot_adapter.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rtcbot_adapter/rtcbot_adapter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros2_ws/build/rtcbot_adapter/build
+creating /ros2_ws/build/rtcbot_adapter/build/lib
+creating /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter
+copying rtcbot_adapter/__init__.py -> /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter
+copying rtcbot_adapter/rtcbot_adpter.py -> /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter
+running install
+running install_lib
+creating /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter
+copying /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter/__init__.py -> /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter
+copying /ros2_ws/build/rtcbot_adapter/build/lib/rtcbot_adapter/rtcbot_adpter.py -> /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter
+byte-compiling /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter/rtcbot_adpter.py to rtcbot_adpter.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/rtcbot_adapter/rtcbot_adapter.egg-info to /ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages/rtcbot_adapter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rtcbot_adpter script to /ros2_ws/install/rtcbot_adapter/lib/rtcbot_adapter
+writing list of installed files to '/ros2_ws/build/rtcbot_adapter/install.log'

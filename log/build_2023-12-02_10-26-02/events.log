@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.000597] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.000777] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.000905] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.001030] (-) JobUnselected: {'identifier': 'vision'}
+[0.001143] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.001261] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict()}
+[0.004620] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.099111] (-) TimerEvent: {}
+[0.201030] (-) TimerEvent: {}
+[0.202092] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.204584] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[0.207290] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[0.301217] (-) TimerEvent: {}
+[0.372843] (digipot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/digipot.dir/src/digipot.cpp.o\x1b[0m\n'}
+[0.401531] (-) TimerEvent: {}
+[0.511168] (-) TimerEvent: {}
+[0.611967] (-) TimerEvent: {}
+[0.712661] (-) TimerEvent: {}
+[0.813311] (-) TimerEvent: {}
+[0.913956] (-) TimerEvent: {}
+[1.014586] (-) TimerEvent: {}
+[1.115226] (-) TimerEvent: {}
+[1.215924] (-) TimerEvent: {}
+[1.316556] (-) TimerEvent: {}
+[1.417218] (-) TimerEvent: {}
+[1.517866] (-) TimerEvent: {}
+[1.618540] (-) TimerEvent: {}
+[1.719178] (-) TimerEvent: {}
+[1.819886] (-) TimerEvent: {}
+[1.920541] (-) TimerEvent: {}
+[2.021195] (-) TimerEvent: {}
+[2.121856] (-) TimerEvent: {}
+[2.222571] (-) TimerEvent: {}
+[2.323231] (-) TimerEvent: {}
+[2.423970] (-) TimerEvent: {}
+[2.524625] (-) TimerEvent: {}
+[2.625303] (-) TimerEvent: {}
+[2.725979] (-) TimerEvent: {}
+[2.826644] (-) TimerEvent: {}
+[2.927313] (-) TimerEvent: {}
+[3.028024] (-) TimerEvent: {}
+[3.128663] (-) TimerEvent: {}
+[3.229312] (-) TimerEvent: {}
+[3.329976] (-) TimerEvent: {}
+[3.430655] (-) TimerEvent: {}
+[3.531410] (-) TimerEvent: {}
+[3.632102] (-) TimerEvent: {}
+[3.732857] (-) TimerEvent: {}
+[3.833569] (-) TimerEvent: {}
+[3.934292] (-) TimerEvent: {}
+[4.034969] (-) TimerEvent: {}
+[4.135699] (-) TimerEvent: {}
+[4.236391] (-) TimerEvent: {}
+[4.337064] (-) TimerEvent: {}
+[4.437726] (-) TimerEvent: {}
+[4.538386] (-) TimerEvent: {}
+[4.639914] (-) TimerEvent: {}
+[4.740585] (-) TimerEvent: {}
+[4.841255] (-) TimerEvent: {}
+[4.941927] (-) TimerEvent: {}
+[5.042595] (-) TimerEvent: {}
+[5.143261] (-) TimerEvent: {}
+[5.244005] (-) TimerEvent: {}
+[5.344672] (-) TimerEvent: {}
+[5.445341] (-) TimerEvent: {}
+[5.546014] (-) TimerEvent: {}
+[5.646668] (-) TimerEvent: {}
+[5.747392] (-) TimerEvent: {}
+[5.848058] (-) TimerEvent: {}
+[5.948717] (-) TimerEvent: {}
+[6.049385] (-) TimerEvent: {}
+[6.150043] (-) TimerEvent: {}
+[6.250710] (-) TimerEvent: {}
+[6.351425] (-) TimerEvent: {}
+[6.452084] (-) TimerEvent: {}
+[6.552749] (-) TimerEvent: {}
+[6.653416] (-) TimerEvent: {}
+[6.754084] (-) TimerEvent: {}
+[6.854749] (-) TimerEvent: {}
+[6.955453] (-) TimerEvent: {}
+[7.056110] (-) TimerEvent: {}
+[7.156779] (-) TimerEvent: {}
+[7.257448] (-) TimerEvent: {}
+[7.358113] (-) TimerEvent: {}
+[7.458776] (-) TimerEvent: {}
+[7.559451] (-) TimerEvent: {}
+[7.660205] (-) TimerEvent: {}
+[7.760888] (-) TimerEvent: {}
+[7.861547] (-) TimerEvent: {}
+[7.962220] (-) TimerEvent: {}
+[8.062909] (-) TimerEvent: {}
+[8.163632] (-) TimerEvent: {}
+[8.264307] (-) TimerEvent: {}
+[8.364972] (-) TimerEvent: {}
+[8.465632] (-) TimerEvent: {}
+[8.566293] (-) TimerEvent: {}
+[8.666963] (-) TimerEvent: {}
+[8.767724] (-) TimerEvent: {}
+[8.868398] (-) TimerEvent: {}
+[8.969081] (-) TimerEvent: {}
+[9.069761] (-) TimerEvent: {}
+[9.170449] (-) TimerEvent: {}
+[9.271143] (-) TimerEvent: {}
+[9.371870] (-) TimerEvent: {}
+[9.472541] (-) TimerEvent: {}
+[9.573212] (-) TimerEvent: {}
+[9.673916] (-) TimerEvent: {}
+[9.774591] (-) TimerEvent: {}
+[9.872843] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::DigipotNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.874730] (-) TimerEvent: {}
+[9.875228] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:10:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDigiPot::DigiPot()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.877649] (digipot) StderrLine: {'line': b'   10 |     : Node("digipot"\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[9.878089] (digipot) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.878678] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:4\x1b[m\x1b[K:\n'}
+[9.879146] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KDigiPot::DigiPot(int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.879640] (digipot) StderrLine: {'line': b'   12 |     \x1b[01;36m\x1b[KDigiPot\x1b[m\x1b[K(int udPin, int incPin, int csPin);\n'}
+[9.880018] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.880352] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:12:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[9.880718] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr DigiPot::DigiPot(const DigiPot&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.881064] (digipot) StderrLine: {'line': b'   10 | class \x1b[01;36m\x1b[KDigiPot\x1b[m\x1b[K {\n'}
+[9.881506] (digipot) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.881952] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[9.882384] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr DigiPot::DigiPot(DigiPot&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.882726] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/include/digipot/DigiPot.h:10:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[9.883063] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:12:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::declare_parameter(const char [6], unsigned int, const char [20])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.883432] (digipot) StderrLine: {'line': b'   12 |     \x1b[01;31m\x1b[Kdeclare_parameter("udPin", 0u, "U/D GPIO pin number")\x1b[m\x1b[K;\n'}
+[9.883796] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.884124] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.884449] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.884775] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.885109] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.885448] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.885869] (digipot) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.886319] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.886772] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.887196] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:12:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"U/D GPIO pin number"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [20]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterDescriptor&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.887651] (digipot) StderrLine: {'line': b'   12 |     declare_parameter("udPin", 0u, \x1b[01;36m\x1b[K"U/D GPIO pin number"\x1b[m\x1b[K);\n'}
+[9.888034] (digipot) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.888432] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.888789] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.889135] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.889462] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.889789] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.890123] (digipot) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.890441] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.890772] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.891229] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:12:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.891813] (digipot) StderrLine: {'line': b'   12 |     \x1b[01;36m\x1b[Kdeclare_parameter("udPin", 0u, "U/D GPIO pin number")\x1b[m\x1b[K;\n'}
+[9.892233] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.892642] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.892988] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.893314] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.893656] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.894000] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.894347] (digipot) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.894661] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.894970] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:368:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.895315] (digipot) StderrLine: {'line': b'  368 |     \x1b[01;36m\x1b[Kconst rclcpp::ParameterValue & default_value\x1b[m\x1b[K,\n'}
+[9.895772] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.896191] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.896665] (digipot) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.897092] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.897773] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:394:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [20]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterDescriptor&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.898463] (digipot) StderrLine: {'line': b'  394 |     \x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =\x1b[m\x1b[K\n'}
+[9.898971] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.899421] (digipot) StderrLine: {'line': b'  395 | \x1b[01;36m\x1b[K    rcl_interfaces::msg::ParameterDescriptor{}\x1b[m\x1b[K,\n'}
+[9.899818] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[9.900173] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:13:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::declare_parameter(const char [7], unsigned int, const char [20])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.900600] (digipot) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Kdeclare_parameter("incPin", 0u, "INC GPIO pin number")\x1b[m\x1b[K;\n'}
+[9.901182] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.901650] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.902025] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.902622] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.903137] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.903703] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.904154] (digipot) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.904511] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.904855] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.905215] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:13:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"INC GPIO pin number"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [20]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterDescriptor&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.905581] (digipot) StderrLine: {'line': b'   13 |     declare_parameter("incPin", 0u, \x1b[01;36m\x1b[K"INC GPIO pin number"\x1b[m\x1b[K);\n'}
+[9.905977] (digipot) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.906343] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.906686] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.907035] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.907405] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.907783] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.908143] (digipot) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.908473] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.908805] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.909155] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:13:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.909497] (digipot) StderrLine: {'line': b'   13 |     \x1b[01;36m\x1b[Kdeclare_parameter("incPin", 0u, "INC GPIO pin number")\x1b[m\x1b[K;\n'}
+[9.909835] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.910168] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.910508] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.910847] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.911176] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.911573] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.911960] (digipot) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.912328] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.912694] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:368:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.913052] (digipot) StderrLine: {'line': b'  368 |     \x1b[01;36m\x1b[Kconst rclcpp::ParameterValue & default_value\x1b[m\x1b[K,\n'}
+[9.913402] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.913747] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.914132] (digipot) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.914473] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.914815] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:394:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [20]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterDescriptor&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.915198] (digipot) StderrLine: {'line': b'  394 |     \x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =\x1b[m\x1b[K\n'}
+[9.915627] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.915990] (digipot) StderrLine: {'line': b'  395 | \x1b[01;36m\x1b[K    rcl_interfaces::msg::ParameterDescriptor{}\x1b[m\x1b[K,\n'}
+[9.916330] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[9.916671] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:14:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDigipotNode::declare_parameter(const char [6], unsigned int, const char [19])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.917021] (digipot) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Kdeclare_parameter("csPin", 0u, "CS GPIO pin number")\x1b[m\x1b[K;\n'}
+[9.917356] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.917683] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.918022] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.918351] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.918718] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.919106] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.919530] (digipot) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.919919] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.920266] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.920610] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:14:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"CS GPIO pin number"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [19]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterDescriptor&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.920965] (digipot) StderrLine: {'line': b'   14 |     declare_parameter("csPin", 0u, \x1b[01;36m\x1b[K"CS GPIO pin number"\x1b[m\x1b[K);\n'}
+[9.921314] (digipot) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.921696] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.922043] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.922381] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.922720] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.923067] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.923453] (digipot) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.923808] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.924138] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.924506] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:14:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.924858] (digipot) StderrLine: {'line': b'   14 |     \x1b[01;36m\x1b[Kdeclare_parameter("csPin", 0u, "CS GPIO pin number")\x1b[m\x1b[K;\n'}
+[9.925203] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.925540] (digipot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[9.925870] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[9.926223] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.926657] (digipot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:1\x1b[m\x1b[K:\n'}
+[9.927018] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.927419] (digipot) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.927798] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.928169] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:368:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.928529] (digipot) StderrLine: {'line': b'  368 |     \x1b[01;36m\x1b[Kconst rclcpp::ParameterValue & default_value\x1b[m\x1b[K,\n'}
+[9.928885] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.929242] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.929617] (digipot) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[9.929956] (digipot) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.930292] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:394:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [19]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterDescriptor&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.930645] (digipot) StderrLine: {'line': b'  394 |     \x1b[01;36m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =\x1b[m\x1b[K\n'}
+[9.931004] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.931401] (digipot) StderrLine: {'line': b'  395 | \x1b[01;36m\x1b[K    rcl_interfaces::msg::ParameterDescriptor{}\x1b[m\x1b[K,\n'}
+[9.931781] (digipot) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[9.932139] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KudPin_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KunPin_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.932512] (digipot) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[KudPin_\x1b[m\x1b[K = get_parameter("udPin").as_uint();\n'}
+[9.932856] (digipot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.933202] (digipot) StderrLine: {'line': b'      |     \x1b[32m\x1b[KunPin_\x1b[m\x1b[K\n'}
+[9.933543] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:17:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kas_uint\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kas_int\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.933908] (digipot) StderrLine: {'line': b'   17 |     udPin_ = get_parameter("udPin").\x1b[01;31m\x1b[Kas_uint\x1b[m\x1b[K();\n'}
+[9.934260] (digipot) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.934602] (digipot) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kas_int\x1b[m\x1b[K\n'}
+[9.934950] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:18:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kas_uint\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kas_int\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.935298] (digipot) StderrLine: {'line': b'   18 |     incPin_ = get_parameter("incPin").\x1b[01;31m\x1b[Kas_uint\x1b[m\x1b[K();\n'}
+[9.935701] (digipot) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.936055] (digipot) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Kas_int\x1b[m\x1b[K\n'}
+[9.936392] (digipot) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/src/digipot/src/digipot.cpp:19:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kas_uint\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kas_int\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.936761] (digipot) StderrLine: {'line': b'   19 |     csPin_ = get_parameter("csPin").\x1b[01;31m\x1b[Kas_uint\x1b[m\x1b[K();\n'}
+[9.937111] (digipot) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.937491] (digipot) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kas_int\x1b[m\x1b[K\n'}
+[9.974911] (-) TimerEvent: {}
+[10.075612] (-) TimerEvent: {}
+[10.176345] (-) TimerEvent: {}
+[10.277020] (-) TimerEvent: {}
+[10.377685] (-) TimerEvent: {}
+[10.478342] (-) TimerEvent: {}
+[10.579002] (-) TimerEvent: {}
+[10.679707] (-) TimerEvent: {}
+[10.780371] (-) TimerEvent: {}
+[10.881349] (-) TimerEvent: {}
+[10.982333] (-) TimerEvent: {}
+[11.083404] (-) TimerEvent: {}
+[11.184369] (-) TimerEvent: {}
+[11.285326] (-) TimerEvent: {}
+[11.386296] (-) TimerEvent: {}
+[11.487261] (-) TimerEvent: {}
+[11.588286] (-) TimerEvent: {}
+[11.688950] (-) TimerEvent: {}
+[11.789624] (-) TimerEvent: {}
+[11.890327] (-) TimerEvent: {}
+[11.991045] (-) TimerEvent: {}
+[12.091827] (-) TimerEvent: {}
+[12.192594] (-) TimerEvent: {}
+[12.293335] (-) TimerEvent: {}
+[12.394004] (-) TimerEvent: {}
+[12.494674] (-) TimerEvent: {}
+[12.595401] (-) TimerEvent: {}
+[12.700746] (-) TimerEvent: {}
+[12.801425] (-) TimerEvent: {}
+[12.902087] (-) TimerEvent: {}
+[13.002751] (-) TimerEvent: {}
+[13.103474] (-) TimerEvent: {}
+[13.204134] (-) TimerEvent: {}
+[13.304801] (-) TimerEvent: {}
+[13.405464] (-) TimerEvent: {}
+[13.506136] (-) TimerEvent: {}
+[13.606786] (-) TimerEvent: {}
+[13.707444] (-) TimerEvent: {}
+[13.808093] (-) TimerEvent: {}
+[13.908741] (-) TimerEvent: {}
+[14.009423] (-) TimerEvent: {}
+[14.110111] (-) TimerEvent: {}
+[14.210774] (-) TimerEvent: {}
+[14.311455] (-) TimerEvent: {}
+[14.412357] (-) TimerEvent: {}
+[14.513074] (-) TimerEvent: {}
+[14.613735] (-) TimerEvent: {}
+[14.714405] (-) TimerEvent: {}
+[14.815063] (-) TimerEvent: {}
+[14.915794] (-) TimerEvent: {}
+[15.016468] (-) TimerEvent: {}
+[15.117143] (-) TimerEvent: {}
+[15.217807] (-) TimerEvent: {}
+[15.318464] (-) TimerEvent: {}
+[15.419152] (-) TimerEvent: {}
+[15.519918] (-) TimerEvent: {}
+[15.620613] (-) TimerEvent: {}
+[15.721286] (-) TimerEvent: {}
+[15.821968] (-) TimerEvent: {}
+[15.922638] (-) TimerEvent: {}
+[16.023314] (-) TimerEvent: {}
+[16.124042] (-) TimerEvent: {}
+[16.224741] (-) TimerEvent: {}
+[16.325417] (-) TimerEvent: {}
+[16.426089] (-) TimerEvent: {}
+[16.526757] (-) TimerEvent: {}
+[16.627501] (-) TimerEvent: {}
+[16.728168] (-) TimerEvent: {}
+[16.828835] (-) TimerEvent: {}
+[16.929537] (-) TimerEvent: {}
+[17.030205] (-) TimerEvent: {}
+[17.130903] (-) TimerEvent: {}
+[17.231638] (-) TimerEvent: {}
+[17.332294] (-) TimerEvent: {}
+[17.432994] (-) TimerEvent: {}
+[17.533656] (-) TimerEvent: {}
+[17.634362] (-) TimerEvent: {}
+[17.735276] (-) TimerEvent: {}
+[17.836012] (-) TimerEvent: {}
+[17.936745] (-) TimerEvent: {}
+[18.037473] (-) TimerEvent: {}
+[18.138183] (-) TimerEvent: {}
+[18.238830] (-) TimerEvent: {}
+[18.339472] (-) TimerEvent: {}
+[18.440119] (-) TimerEvent: {}
+[18.540770] (-) TimerEvent: {}
+[18.641427] (-) TimerEvent: {}
+[18.742095] (-) TimerEvent: {}
+[18.842771] (-) TimerEvent: {}
+[18.943537] (-) TimerEvent: {}
+[19.044231] (-) TimerEvent: {}
+[19.145355] (-) TimerEvent: {}
+[19.246019] (-) TimerEvent: {}
+[19.346680] (-) TimerEvent: {}
+[19.388035] (digipot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/digipot.dir/build.make:76: CMakeFiles/digipot.dir/src/digipot.cpp.o] Error 1\n'}
+[19.391306] (digipot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/digipot.dir/all] Error 2\n'}
+[19.392953] (digipot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.395937] (digipot) CommandEnded: {'returncode': 2}
+[19.446816] (-) TimerEvent: {}
+[19.547549] (-) TimerEvent: {}
+[19.648933] (-) TimerEvent: {}
+[19.677891] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 2}
+[19.689204] (-) EventReactorShutdown: {}

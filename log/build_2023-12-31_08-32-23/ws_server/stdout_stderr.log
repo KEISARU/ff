@@ -1,0 +1,40 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws-server.egg-link (link to .)
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/ws_server/ws_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/ws_server/ws_server.egg-info/dependency_links.txt
+writing entry points to ../../build/ws_server/ws_server.egg-info/entry_points.txt
+writing requirements to ../../build/ws_server/ws_server.egg-info/requires.txt
+writing top-level names to ../../build/ws_server/ws_server.egg-info/top_level.txt
+reading manifest file '../../build/ws_server/ws_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/ws_server/ws_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros2_ws/build/ws_server/build
+creating /ros2_ws/build/ws_server/build/lib
+creating /ros2_ws/build/ws_server/build/lib/ws_server
+copying ws_server/__init__.py -> /ros2_ws/build/ws_server/build/lib/ws_server
+copying ws_server/ws_server_node.py -> /ros2_ws/build/ws_server/build/lib/ws_server
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server
+copying /ros2_ws/build/ws_server/build/lib/ws_server/__init__.py -> /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server
+copying /ros2_ws/build/ws_server/build/lib/ws_server/ws_server_node.py -> /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server
+byte-compiling /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server/ws_server_node.py to ws_server_node.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/ws_server/ws_server.egg-info to /ros2_ws/install/ws_server/lib/python3.10/site-packages/ws_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ws_server_node script to /ros2_ws/install/ws_server/lib/ws_server
+writing list of installed files to '/ros2_ws/build/ws_server/install.log'

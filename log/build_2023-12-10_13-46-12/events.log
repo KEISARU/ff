@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.001400] (-) JobUnselected: {'identifier': 'delivery_bot_package'}
+[0.001668] (-) JobUnselected: {'identifier': 'motion_control'}
+[0.002707] (-) JobUnselected: {'identifier': 'rtcbot_adapter'}
+[0.003371] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003674] (-) JobUnselected: {'identifier': 'vision'}
+[0.003804] (-) JobUnselected: {'identifier': 'ws_server'}
+[0.003952] (digipot) JobQueued: {'identifier': 'digipot', 'dependencies': OrderedDict()}
+[0.004254] (digipot) JobStarted: {'identifier': 'digipot'}
+[0.099189] (-) TimerEvent: {}
+[0.200018] (-) TimerEvent: {}
+[0.245645] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'cmake'}
+[0.248680] (digipot) JobProgress: {'identifier': 'digipot', 'progress': 'build'}
+[0.252060] (digipot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/digipot', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/build/digipot', 'env': OrderedDict([('HOSTNAME', 'mydevice'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/sllidar_ros2:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/opt/ros/humble'), ('PWD', '/ros2_ws/build/digipot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/build/ws_server:/ros2_ws/install/ws_server/lib/python3.10/site-packages:/ros2_ws/build/vision:/ros2_ws/install/vision/lib/python3.10/site-packages:/ros2_ws/build/rtcbot_adapter:/ros2_ws/install/rtcbot_adapter/lib/python3.10/site-packages:/ros2_ws/build/motion_control:/ros2_ws/install/motion_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/sllidar_ros2:/ros2_ws/install/digipot:/ros2_ws/install/delivery_bot_package:/ros2_ws/install/ws_server:/ros2_ws/install/vision:/ros2_ws/install/rtcbot_adapter:/ros2_ws/install/motion_control:/opt/ros/humble')]), 'shell': False}
+[0.300518] (-) TimerEvent: {}
+[0.343206] (digipot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400689] (-) TimerEvent: {}
+[0.501357] (-) TimerEvent: {}
+[0.602019] (-) TimerEvent: {}
+[0.702953] (-) TimerEvent: {}
+[0.803605] (-) TimerEvent: {}
+[0.904248] (-) TimerEvent: {}
+[0.937520] (digipot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.967572] (digipot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.004420] (-) TimerEvent: {}
+[1.076918] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.087707] (digipot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.104565] (-) TimerEvent: {}
+[1.112181] (digipot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.161130] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.204730] (-) TimerEvent: {}
+[1.228342] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304899] (-) TimerEvent: {}
+[1.405544] (-) TimerEvent: {}
+[1.480698] (digipot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.486569] (digipot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.505689] (-) TimerEvent: {}
+[1.606310] (-) TimerEvent: {}
+[1.706980] (-) TimerEvent: {}
+[1.807658] (-) TimerEvent: {}
+[1.879908] (digipot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.907819] (-) TimerEvent: {}
+[2.008777] (-) TimerEvent: {}
+[2.109741] (-) TimerEvent: {}
+[2.210670] (-) TimerEvent: {}
+[2.311688] (-) TimerEvent: {}
+[2.412348] (-) TimerEvent: {}
+[2.513001] (-) TimerEvent: {}
+[2.582684] (digipot) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.613161] (-) TimerEvent: {}
+[2.713798] (-) TimerEvent: {}
+[2.814462] (-) TimerEvent: {}
+[2.915222] (-) TimerEvent: {}
+[3.015937] (-) TimerEvent: {}
+[3.116662] (-) TimerEvent: {}
+[3.217569] (-) TimerEvent: {}
+[3.318283] (-) TimerEvent: {}
+[3.418963] (-) TimerEvent: {}
+[3.519637] (-) TimerEvent: {}
+[3.620451] (-) TimerEvent: {}
+[3.643090] (digipot) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.720535] (-) TimerEvent: {}
+[3.821208] (-) TimerEvent: {}
+[3.921886] (-) TimerEvent: {}
+[4.022552] (-) TimerEvent: {}
+[4.123306] (-) TimerEvent: {}
+[4.224949] (-) TimerEvent: {}
+[4.325647] (-) TimerEvent: {}
+[4.426347] (-) TimerEvent: {}
+[4.527138] (-) TimerEvent: {}
+[4.628038] (-) TimerEvent: {}
+[4.728688] (-) TimerEvent: {}
+[4.799727] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.828840] (-) TimerEvent: {}
+[4.929505] (-) TimerEvent: {}
+[5.030458] (-) TimerEvent: {}
+[5.131941] (-) TimerEvent: {}
+[5.218129] (digipot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.232110] (-) TimerEvent: {}
+[5.286297] (digipot) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.332261] (-) TimerEvent: {}
+[5.353811] (digipot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.354468] (digipot) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.354882] (digipot) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[5.411766] (digipot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:128 (target_compile_definitions):\n'}
+[5.412409] (digipot) StderrLine: {'line': b'  target_compile_definitions called with non-compilable target type\n'}
+[5.412778] (digipot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.413100] (digipot) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_target_dependencies)\n'}
+[5.413492] (digipot) StderrLine: {'line': b'\n'}
+[5.414034] (digipot) StderrLine: {'line': b'\x1b[0m\n'}
+[5.414712] (digipot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:141 (target_include_directories):\n'}
+[5.415679] (digipot) StderrLine: {'line': b'  target_include_directories called with non-compilable target type\n'}
+[5.416051] (digipot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.416408] (digipot) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_target_dependencies)\n'}
+[5.416762] (digipot) StderrLine: {'line': b'\n'}
+[5.417199] (digipot) StderrLine: {'line': b'\x1b[0m\n'}
+[5.417537] (digipot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):\n'}
+[5.417869] (digipot) StderrLine: {'line': b'  Utility target "digipot" must not be used as the target of a\n'}
+[5.418192] (digipot) StderrLine: {'line': b'  target_link_libraries call.\n'}
+[5.418508] (digipot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.418894] (digipot) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_target_dependencies)\n'}
+[5.419249] (digipot) StderrLine: {'line': b'\n'}
+[5.419565] (digipot) StderrLine: {'line': b'\x1b[0m\n'}
+[5.419881] (digipot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:147 (target_include_directories):\n'}
+[5.420200] (digipot) StderrLine: {'line': b'  target_include_directories called with non-compilable target type\n'}
+[5.420534] (digipot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.420861] (digipot) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_target_dependencies)\n'}
+[5.421176] (digipot) StderrLine: {'line': b'\n'}
+[5.421485] (digipot) StderrLine: {'line': b'\x1b[0m\n'}
+[5.421793] (digipot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries):\n'}
+[5.422104] (digipot) StderrLine: {'line': b'  Utility target "digipot" must not be used as the target of a\n'}
+[5.422420] (digipot) StderrLine: {'line': b'  target_link_libraries call.\n'}
+[5.422731] (digipot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.423098] (digipot) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_target_dependencies)\n'}
+[5.423421] (digipot) StderrLine: {'line': b'\n'}
+[5.423734] (digipot) StderrLine: {'line': b'\x1b[0m\n'}
+[5.424050] (digipot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.432422] (-) TimerEvent: {}
+[5.457907] (digipot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.460317] (digipot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ros2_ws/src/digipot/include>\n'}
+[5.461535] (digipot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.463217] (digipot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.467976] (digipot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.468587] (digipot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.469500] (digipot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.480858] (digipot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.481429] (digipot) StdoutLine: {'line': b'See also "/ros2_ws/build/digipot/CMakeFiles/CMakeOutput.log".\n'}
+[5.509893] (digipot) StderrLine: {'line': b'gmake: *** [Makefile:294: cmake_check_build_system] Error 1\n'}
+[5.515799] (digipot) CommandEnded: {'returncode': 2}
+[5.532594] (-) TimerEvent: {}
+[5.633289] (-) TimerEvent: {}
+[5.735035] (-) TimerEvent: {}
+[5.805655] (digipot) JobEnded: {'identifier': 'digipot', 'rc': 2}
+[5.817143] (-) EventReactorShutdown: {}

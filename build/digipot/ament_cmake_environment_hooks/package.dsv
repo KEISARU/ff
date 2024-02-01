@@ -1,0 +1,4 @@
+source;share/digipot/local_setup.bash
+source;share/digipot/local_setup.dsv
+source;share/digipot/local_setup.sh
+source;share/digipot/local_setup.zsh
